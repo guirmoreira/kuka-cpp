@@ -1,0 +1,53 @@
+{
+	"folders": [
+		{
+			"path": "/home/guilherme/drive/research/ic-glauco/kuka-cpp"
+		},
+		{
+			"path": "/home/guilherme/drive/research/ic-glauco/kuka-python"
+		},
+		{
+			"path": "/home/guilherme/projects"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.ipp": "cpp",
+			"system_error": "cpp",
+			"cctype": "cpp",
+			"cmath": "cpp",
+			"cstdarg": "cpp",
+			"cstddef": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"cstring": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"cwctype": "cpp",
+			"atomic": "cpp",
+			"*.tcc": "cpp",
+			"clocale": "cpp",
+			"cstdint": "cpp",
+			"exception": "cpp",
+			"slist": "cpp",
+			"initializer_list": "cpp",
+			"iosfwd": "cpp",
+			"iostream": "cpp",
+			"istream": "cpp",
+			"limits": "cpp",
+			"new": "cpp",
+			"ostream": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"type_traits": "cpp",
+			"typeinfo": "cpp",
+			"strstream": "cpp",
+			"chrono": "cpp",
+			"ratio": "cpp",
+			"thread": "cpp",
+			"cinttypes": "cpp",
+			"typeindex": "cpp",
+			"mutex": "cpp"
+		}
+	}
+}
