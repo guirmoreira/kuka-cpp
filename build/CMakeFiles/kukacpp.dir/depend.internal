@@ -6,6 +6,7 @@ CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o
  /home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server/udp_client_server.h
 CMakeFiles/kukacpp.dir/main.cpp.o
  ../include/rapidxml-1.13/rapidxml.hpp
+ ../include/rapidxml-1.13/rapidxml_print.hpp
  ../include/udp-client-server/udp_client_server.h
  ../utils/models.hpp
  ../utils/xml_handler.hpp

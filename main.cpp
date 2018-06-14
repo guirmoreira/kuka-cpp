@@ -8,7 +8,11 @@ int main() {
 
     const char* xml_send;
     xml_send = (char*) "arquivo";
-    get_data_from_xml_receive(xml_send);
+    Data data = get_data_from_xml_receive(xml_send);
+
+    data.print();
+
+    generate_xml_receive();
 
 	RobotKuka kr16;
 

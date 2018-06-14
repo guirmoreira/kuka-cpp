@@ -1,0 +1,2244 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "/home/guilherme/drive/research/ic-glauco/kuka-cpp",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2018-06-14 12:27:45",
+            "filesum": 360,
+            "codesum": 22862,
+            "commentsum": 3261,
+            "blanksum": 7291,
+            "filelist": [
+                {
+                    "filename": ".udp_client_server.conf.swp",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 20,
+                    "code": 42,
+                    "comment": 3,
+                    "filename": "/home/guilherme/drive/research/ic-glauco/kuka-python/impedance_control.py"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "/home/guilherme/drive/research/ic-glauco/kuka-python/kuka_python.html"
+                },
+                {
+                    "blank": 16,
+                    "code": 41,
+                    "comment": 4,
+                    "filename": "/home/guilherme/drive/research/ic-glauco/kuka-python/models.py"
+                },
+                {
+                    "blank": 14,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "/home/guilherme/drive/research/ic-glauco/kuka-python/plot_data.py"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "/home/guilherme/drive/research/ic-glauco/kuka-python/README.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "/home/guilherme/drive/research/ic-glauco/kuka-python/receive.xml"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "/home/guilherme/drive/research/ic-glauco/kuka-python/receive_mod.xml"
+                },
+                {
+                    "blank": 91,
+                    "code": 293,
+                    "comment": 66,
+                    "filename": "/home/guilherme/drive/research/ic-glauco/kuka-python/robot_kuka.py"
+                },
+                {
+                    "blank": 17,
+                    "code": 68,
+                    "comment": 3,
+                    "filename": "/home/guilherme/drive/research/ic-glauco/kuka-python/xml_modifiers.py"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula2/build/aula2",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/cmake_install.cmake"
+                },
+                {
+                    "blank": 55,
+                    "code": 129,
+                    "comment": 120,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeCache.txt"
+                },
+                {
+                    "blank": 13,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake"
+                },
+                {
+                    "blank": 13,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CMakeSystem.cmake"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CompilerIdC/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 96,
+                    "code": 399,
+                    "comment": 49,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 94,
+                    "code": 387,
+                    "comment": 52,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+                },
+                {
+                    "blank": 22,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/build.make"
+                },
+                {
+                    "blank": 4,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/cmake_clean.cmake"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/CXX.includecache"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/depend.internal"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/depend.make"
+                },
+                {
+                    "blank": 5,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/DependInfo.cmake"
+                },
+                {
+                    "blank": 4,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/flags.make"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/link.txt"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/main.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/progress.make"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/cmake.check_cache"
+                },
+                {
+                    "blank": 4,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/CMakeDirectoryInformation.cmake"
+                },
+                {
+                    "blank": 56,
+                    "code": 498,
+                    "comment": 4,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/CMakeOutput.log"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/feature_tests.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 19,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/feature_tests.c"
+                },
+                {
+                    "blank": 231,
+                    "code": 174,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/feature_tests.cxx"
+                },
+                {
+                    "blank": 29,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/Makefile.cmake"
+                },
+                {
+                    "blank": 36,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/Makefile2"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/progress.marks"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/CMakeFiles/TargetDirectories.txt"
+                },
+                {
+                    "blank": 64,
+                    "code": 162,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/build/Makefile"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula2/CMakeLists.txt"
+                },
+                {
+                    "blank": 27,
+                    "code": 53,
+                    "comment": 8,
+                    "filename": "/home/guilherme/projects/aula2/main.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 30,
+                    "comment": 1,
+                    "filename": "/home/guilherme/projects/aula2/run.sh"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula3/build/aula3",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/cmake_install.cmake"
+                },
+                {
+                    "blank": 55,
+                    "code": 129,
+                    "comment": 120,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeCache.txt"
+                },
+                {
+                    "blank": 13,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake"
+                },
+                {
+                    "blank": 13,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CMakeSystem.cmake"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CompilerIdC/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 96,
+                    "code": 399,
+                    "comment": 49,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 94,
+                    "code": 387,
+                    "comment": 52,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+                },
+                {
+                    "blank": 22,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/build.make"
+                },
+                {
+                    "blank": 4,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/cmake_clean.cmake"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/CXX.includecache"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/depend.internal"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/depend.make"
+                },
+                {
+                    "blank": 5,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/DependInfo.cmake"
+                },
+                {
+                    "blank": 4,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/flags.make"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/link.txt"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/main.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/progress.make"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/cmake.check_cache"
+                },
+                {
+                    "blank": 4,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/CMakeDirectoryInformation.cmake"
+                },
+                {
+                    "blank": 56,
+                    "code": 498,
+                    "comment": 4,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/CMakeOutput.log"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/feature_tests.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 19,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/feature_tests.c"
+                },
+                {
+                    "blank": 231,
+                    "code": 174,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/feature_tests.cxx"
+                },
+                {
+                    "blank": 29,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/Makefile.cmake"
+                },
+                {
+                    "blank": 36,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/Makefile2"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/progress.marks"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/CMakeFiles/TargetDirectories.txt"
+                },
+                {
+                    "blank": 64,
+                    "code": 162,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/build/Makefile"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula3/CMakeLists.txt"
+                },
+                {
+                    "blank": 16,
+                    "code": 36,
+                    "comment": 1,
+                    "filename": "/home/guilherme/projects/aula3/main.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 1,
+                    "filename": "/home/guilherme/projects/aula3/run.sh"
+                },
+                {
+                    "blank": 7,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/cmake_install.cmake"
+                },
+                {
+                    "blank": 55,
+                    "code": 129,
+                    "comment": 120,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeCache.txt"
+                },
+                {
+                    "blank": 13,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake"
+                },
+                {
+                    "blank": 13,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CMakeSystem.cmake"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CompilerIdC/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 96,
+                    "code": 399,
+                    "comment": 49,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 94,
+                    "code": 387,
+                    "comment": 52,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+                },
+                {
+                    "blank": 22,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/build.make"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/circle.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/cmake_clean.cmake"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/CXX.includecache"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/depend.internal"
+                },
+                {
+                    "blank": 3,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/depend.make"
+                },
+                {
+                    "blank": 6,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/DependInfo.cmake"
+                },
+                {
+                    "blank": 4,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/flags.make"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/link.txt"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/main.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/progress.make"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/cmake.check_cache"
+                },
+                {
+                    "blank": 4,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/CMakeDirectoryInformation.cmake"
+                },
+                {
+                    "blank": 56,
+                    "code": 498,
+                    "comment": 4,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/CMakeOutput.log"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/feature_tests.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 19,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/feature_tests.c"
+                },
+                {
+                    "blank": 231,
+                    "code": 174,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/feature_tests.cxx"
+                },
+                {
+                    "blank": 29,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/Makefile.cmake"
+                },
+                {
+                    "blank": 36,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/Makefile2"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/progress.marks"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/Progress/1"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/Progress/3"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/Progress/count.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/TargetDirectories.txt"
+                },
+                {
+                    "blank": 73,
+                    "code": 183,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/Makefile"
+                },
+                {
+                    "blank": 13,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/circle.cpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 9,
+                    "comment": 1,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/circle.hpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/CMakeLists.txt"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/main.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 1,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro-arq-separados/run.sh"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/aula4",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/cmake_install.cmake"
+                },
+                {
+                    "blank": 55,
+                    "code": 129,
+                    "comment": 120,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeCache.txt"
+                },
+                {
+                    "blank": 13,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake"
+                },
+                {
+                    "blank": 13,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CMakeSystem.cmake"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CompilerIdC/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 96,
+                    "code": 399,
+                    "comment": 49,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 94,
+                    "code": 387,
+                    "comment": 52,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+                },
+                {
+                    "blank": 22,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/build.make"
+                },
+                {
+                    "blank": 4,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/cmake_clean.cmake"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/CXX.includecache"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/depend.internal"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/depend.make"
+                },
+                {
+                    "blank": 5,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/DependInfo.cmake"
+                },
+                {
+                    "blank": 4,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/flags.make"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/link.txt"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/main.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/progress.make"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/cmake.check_cache"
+                },
+                {
+                    "blank": 4,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/CMakeDirectoryInformation.cmake"
+                },
+                {
+                    "blank": 56,
+                    "code": 498,
+                    "comment": 4,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/CMakeOutput.log"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/feature_tests.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 19,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/feature_tests.c"
+                },
+                {
+                    "blank": 231,
+                    "code": 174,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/feature_tests.cxx"
+                },
+                {
+                    "blank": 29,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/Makefile.cmake"
+                },
+                {
+                    "blank": 36,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/Makefile2"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/progress.marks"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/TargetDirectories.txt"
+                },
+                {
+                    "blank": 64,
+                    "code": 162,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/build/Makefile"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/CMakeLists.txt"
+                },
+                {
+                    "blank": 14,
+                    "code": 27,
+                    "comment": 4,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/main.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 1,
+                    "filename": "/home/guilherme/projects/aula4/classes-c-puro/run.sh"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/aula4",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/cmake_install.cmake"
+                },
+                {
+                    "blank": 55,
+                    "code": 129,
+                    "comment": 120,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeCache.txt"
+                },
+                {
+                    "blank": 13,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake"
+                },
+                {
+                    "blank": 13,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CMakeSystem.cmake"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CompilerIdC/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 96,
+                    "code": 399,
+                    "comment": 49,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 94,
+                    "code": 387,
+                    "comment": 52,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+                },
+                {
+                    "blank": 22,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/build.make"
+                },
+                {
+                    "blank": 5,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/cmake_clean.cmake"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/CXX.includecache"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/depend.internal"
+                },
+                {
+                    "blank": 3,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/depend.make"
+                },
+                {
+                    "blank": 6,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/DependInfo.cmake"
+                },
+                {
+                    "blank": 4,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/flags.make"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/link.txt"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/main.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/matrix.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/progress.make"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/cmake.check_cache"
+                },
+                {
+                    "blank": 4,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/CMakeDirectoryInformation.cmake"
+                },
+                {
+                    "blank": 56,
+                    "code": 498,
+                    "comment": 4,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/CMakeOutput.log"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/feature_tests.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 19,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/feature_tests.c"
+                },
+                {
+                    "blank": 231,
+                    "code": 174,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/feature_tests.cxx"
+                },
+                {
+                    "blank": 29,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/Makefile.cmake"
+                },
+                {
+                    "blank": 36,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/Makefile2"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/progress.marks"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/TargetDirectories.txt"
+                },
+                {
+                    "blank": 73,
+                    "code": 183,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/build/Makefile"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/CMakeLists.txt"
+                },
+                {
+                    "blank": 13,
+                    "code": 24,
+                    "comment": 2,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/main.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/matrix.cpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 13,
+                    "comment": 1,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/matrix.hpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 1,
+                    "filename": "/home/guilherme/projects/aula4/cpp-matrix/run.sh"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/aula4",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/cmake_install.cmake"
+                },
+                {
+                    "blank": 55,
+                    "code": 129,
+                    "comment": 120,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeCache.txt"
+                },
+                {
+                    "blank": 13,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake"
+                },
+                {
+                    "blank": 13,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CMakeSystem.cmake"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CompilerIdC/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 96,
+                    "code": 399,
+                    "comment": 49,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 94,
+                    "code": 387,
+                    "comment": 52,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+                },
+                {
+                    "blank": 22,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/build.make"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/circle.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/cmake_clean.cmake"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/CXX.includecache"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/depend.internal"
+                },
+                {
+                    "blank": 3,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/depend.make"
+                },
+                {
+                    "blank": 6,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/DependInfo.cmake"
+                },
+                {
+                    "blank": 4,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/flags.make"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/link.txt"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/main.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/progress.make"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/cmake.check_cache"
+                },
+                {
+                    "blank": 4,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/CMakeDirectoryInformation.cmake"
+                },
+                {
+                    "blank": 56,
+                    "code": 498,
+                    "comment": 4,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/CMakeOutput.log"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/feature_tests.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 19,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/feature_tests.c"
+                },
+                {
+                    "blank": 231,
+                    "code": 174,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/feature_tests.cxx"
+                },
+                {
+                    "blank": 29,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/Makefile.cmake"
+                },
+                {
+                    "blank": 36,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/Makefile2"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/progress.marks"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/CMakeFiles/TargetDirectories.txt"
+                },
+                {
+                    "blank": 73,
+                    "code": 183,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/build/Makefile"
+                },
+                {
+                    "blank": 12,
+                    "code": 40,
+                    "comment": 3,
+                    "filename": "/home/guilherme/projects/aula4/cpp/circle.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/circle.hpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula4/cpp/CMakeLists.txt"
+                },
+                {
+                    "blank": 15,
+                    "code": 28,
+                    "comment": 4,
+                    "filename": "/home/guilherme/projects/aula4/cpp/main.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 1,
+                    "filename": "/home/guilherme/projects/aula4/cpp/run.sh"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula5/herança/build/aula5",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/cmake_install.cmake"
+                },
+                {
+                    "blank": 55,
+                    "code": 129,
+                    "comment": 120,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeCache.txt"
+                },
+                {
+                    "blank": 13,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake"
+                },
+                {
+                    "blank": 13,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CMakeSystem.cmake"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CompilerIdC/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 96,
+                    "code": 399,
+                    "comment": 49,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 94,
+                    "code": 387,
+                    "comment": 52,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+                },
+                {
+                    "blank": 22,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/build.make"
+                },
+                {
+                    "blank": 6,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/cmake_clean.cmake"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/CXX.includecache"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/depend.internal"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/depend.make"
+                },
+                {
+                    "blank": 7,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/DependInfo.cmake"
+                },
+                {
+                    "blank": 4,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/flags.make"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/link.txt"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/main.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/polygon.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/progress.make"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/square.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/cmake.check_cache"
+                },
+                {
+                    "blank": 4,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/CMakeDirectoryInformation.cmake"
+                },
+                {
+                    "blank": 56,
+                    "code": 498,
+                    "comment": 4,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/CMakeOutput.log"
+                },
+                {
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/feature_tests.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 19,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/feature_tests.c"
+                },
+                {
+                    "blank": 231,
+                    "code": 174,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/feature_tests.cxx"
+                },
+                {
+                    "blank": 29,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/Makefile.cmake"
+                },
+                {
+                    "blank": 36,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/Makefile2"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/progress.marks"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/CMakeFiles/TargetDirectories.txt"
+                },
+                {
+                    "blank": 82,
+                    "code": 204,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/build/Makefile"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/CMakeLists.txt"
+                },
+                {
+                    "blank": 5,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/main.cpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/polygon.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": "/home/guilherme/projects/aula5/herança/polygon.hpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 1,
+                    "filename": "/home/guilherme/projects/aula5/herança/run.sh"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/herança/square.cpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 13,
+                    "comment": 1,
+                    "filename": "/home/guilherme/projects/aula5/herança/square.hpp"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/polimorfismo/CMakeLists.txt"
+                },
+                {
+                    "blank": 5,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/polimorfismo/main.cpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/polimorfismo/polygon.cpp"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": "/home/guilherme/projects/aula5/polimorfismo/polygon.hpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 1,
+                    "filename": "/home/guilherme/projects/aula5/polimorfismo/run.sh"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aula5/polimorfismo/square.cpp"
+                },
+                {
+                    "blank": 4,
+                    "code": 13,
+                    "comment": 1,
+                    "filename": "/home/guilherme/projects/aula5/polimorfismo/square.hpp"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aulacpp.sublime-project"
+                },
+                {
+                    "blank": 30,
+                    "code": 605,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/aulacpp.sublime-workspace"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "/home/guilherme/projects/newProject.sh"
+                },
+                {
+                    "filename": "build/client",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 6,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "build/cmake_install.cmake"
+                },
+                {
+                    "blank": 72,
+                    "code": 173,
+                    "comment": 164,
+                    "filename": "build/CMakeCache.txt"
+                },
+                {
+                    "blank": 13,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/3.5.1/CMakeCCompiler.cmake"
+                },
+                {
+                    "blank": 13,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
+                },
+                {
+                    "filename": "build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/3.5.1/CMakeSystem.cmake"
+                },
+                {
+                    "filename": "build/CMakeFiles/3.5.1/CompilerIdC/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 96,
+                    "code": 399,
+                    "comment": 49,
+                    "filename": "build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+                },
+                {
+                    "filename": "build/CMakeFiles/3.5.1/CompilerIdCXX/a.out",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 94,
+                    "code": 387,
+                    "comment": 52,
+                    "filename": "build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+                },
+                {
+                    "blank": 22,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/client.dir/build.make"
+                },
+                {
+                    "filename": "build/CMakeFiles/client.dir/client.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/client.dir/cmake_clean.cmake"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/client.dir/CXX.includecache"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/client.dir/depend.internal"
+                },
+                {
+                    "blank": 3,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/client.dir/depend.make"
+                },
+                {
+                    "blank": 7,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/client.dir/DependInfo.cmake"
+                },
+                {
+                    "blank": 4,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/client.dir/flags.make"
+                },
+                {
+                    "filename": "build/CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/client.dir/link.txt"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/client.dir/progress.make"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/cmake.check_cache"
+                },
+                {
+                    "blank": 4,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/CMakeDirectoryInformation.cmake"
+                },
+                {
+                    "blank": 4,
+                    "code": 29,
+                    "comment": 1,
+                    "filename": "build/CMakeFiles/CMakeError.log"
+                },
+                {
+                    "blank": 59,
+                    "code": 507,
+                    "comment": 4,
+                    "filename": "build/CMakeFiles/CMakeOutput.log"
+                },
+                {
+                    "filename": "build/CMakeFiles/feature_tests.bin",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 19,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/feature_tests.c"
+                },
+                {
+                    "blank": 231,
+                    "code": 174,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/feature_tests.cxx"
+                },
+                {
+                    "blank": 22,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/kukacpp.dir/build.make"
+                },
+                {
+                    "blank": 7,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/kukacpp.dir/cmake_clean.cmake"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/kukacpp.dir/CXX.includecache"
+                },
+                {
+                    "blank": 1,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/kukacpp.dir/depend.internal"
+                },
+                {
+                    "blank": 5,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/kukacpp.dir/depend.make"
+                },
+                {
+                    "blank": 11,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/kukacpp.dir/DependInfo.cmake"
+                },
+                {
+                    "blank": 4,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/kukacpp.dir/flags.make"
+                },
+                {
+                    "filename": "build/CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/kukacpp.dir/link.txt"
+                },
+                {
+                    "filename": "build/CMakeFiles/kukacpp.dir/main.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/kukacpp.dir/progress.make"
+                },
+                {
+                    "filename": "build/CMakeFiles/kukacpp.dir/robotKuka.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build/CMakeFiles/kukacpp.dir/utils/models.cpp.o",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 39,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/Makefile.cmake"
+                },
+                {
+                    "blank": 46,
+                    "code": 99,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/Makefile2"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/progress.marks"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "build/CMakeFiles/TargetDirectories.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "build/first_xml_send.xml"
+                },
+                {
+                    "filename": "build/kukacpp",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 92,
+                    "code": 223,
+                    "comment": 0,
+                    "filename": "build/Makefile"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "build/xml_send_example.xml"
+                },
+                {
+                    "blank": 1,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "client.cpp"
+                },
+                {
+                    "blank": 8,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "CMakeLists.txt"
+                },
+                {
+                    "blank": 10,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "include/rapidxml-1.13/license.txt"
+                },
+                {
+                    "blank": 23,
+                    "code": 383,
+                    "comment": 0,
+                    "filename": "include/rapidxml-1.13/manual.html"
+                },
+                {
+                    "blank": 285,
+                    "code": 1637,
+                    "comment": 968,
+                    "filename": "include/rapidxml-1.13/rapidxml.hpp"
+                },
+                {
+                    "blank": 37,
+                    "code": 131,
+                    "comment": 6,
+                    "filename": "include/rapidxml-1.13/rapidxml_iterators.hpp"
+                },
+                {
+                    "blank": 51,
+                    "code": 298,
+                    "comment": 76,
+                    "filename": "include/rapidxml-1.13/rapidxml_print.hpp"
+                },
+                {
+                    "blank": 21,
+                    "code": 77,
+                    "comment": 25,
+                    "filename": "include/rapidxml-1.13/rapidxml_utils.hpp"
+                },
+                {
+                    "blank": 24,
+                    "code": 123,
+                    "comment": 176,
+                    "filename": "include/udp-client-server/udp_client_server.cpp"
+                },
+                {
+                    "blank": 15,
+                    "code": 46,
+                    "comment": 3,
+                    "filename": "include/udp-client-server/udp_client_server.h"
+                },
+                {
+                    "blank": 0,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "kukacpp_ws.code-workspace"
+                },
+                {
+                    "blank": 8,
+                    "code": 16,
+                    "comment": 2,
+                    "filename": "main.cpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 19,
+                    "code": 51,
+                    "comment": 4,
+                    "filename": "robotKuka.cpp"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 1,
+                    "filename": "robotKuka.hpp"
+                },
+                {
+                    "blank": 1,
+                    "code": 37,
+                    "comment": 1,
+                    "filename": "run.sh"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "test/test.cpp"
+                },
+                {
+                    "blank": 71,
+                    "code": 341,
+                    "comment": 7,
+                    "filename": "utils/models.cpp"
+                },
+                {
+                    "blank": 22,
+                    "code": 119,
+                    "comment": 1,
+                    "filename": "utils/models.hpp"
+                },
+                {
+                    "blank": 36,
+                    "code": 130,
+                    "comment": 33,
+                    "filename": "utils/xml_handler.hpp"
+                }
+            ]
+        }
+    ]
+}

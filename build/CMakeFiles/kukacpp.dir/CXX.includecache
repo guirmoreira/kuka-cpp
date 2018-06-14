@@ -16,6 +16,14 @@ new
 exception
 -
 
+../include/rapidxml-1.13/rapidxml_print.hpp
+rapidxml.hpp
+../include/rapidxml-1.13/rapidxml.hpp
+ostream
+-
+iterator
+-
+
 ../include/udp-client-server/udp_client_server.h
 sys/types.h
 -
@@ -31,9 +39,13 @@ stdexcept
 ../utils/xml_handler.hpp
 rapidxml.hpp
 ../utils/rapidxml.hpp
+rapidxml_print.hpp
+../utils/rapidxml_print.hpp
 string.h
 -
 iostream
+-
+fstream
 -
 cstdlib
 -

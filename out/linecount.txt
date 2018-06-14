@@ -1,0 +1,372 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2018-06-14 12:27:45
+count workspace : /home/guilherme/drive/research/ic-glauco/kuka-cpp
+total files : 360
+total code lines : 22862
+total comment lines : 3261
+total blank lines : 7291
+
+.udp_client_server.conf.swp, it is a binary file.
+/home/guilherme/drive/research/ic-glauco/kuka-python/impedance_control.py, code is 42, comment is 3, blank is 20.
+/home/guilherme/drive/research/ic-glauco/kuka-python/kuka_python.html, code is 12, comment is 0, blank is 0.
+/home/guilherme/drive/research/ic-glauco/kuka-python/models.py, code is 41, comment is 4, blank is 16.
+/home/guilherme/drive/research/ic-glauco/kuka-python/plot_data.py, code is 72, comment is 0, blank is 14.
+/home/guilherme/drive/research/ic-glauco/kuka-python/README.md, code is 3, comment is 0, blank is 1.
+/home/guilherme/drive/research/ic-glauco/kuka-python/receive.xml, code is 9, comment is 0, blank is 0.
+/home/guilherme/drive/research/ic-glauco/kuka-python/receive_mod.xml, code is 9, comment is 0, blank is 0.
+/home/guilherme/drive/research/ic-glauco/kuka-python/robot_kuka.py, code is 293, comment is 66, blank is 91.
+/home/guilherme/drive/research/ic-glauco/kuka-python/xml_modifiers.py, code is 68, comment is 3, blank is 17.
+/home/guilherme/projects/aula2/build/aula2, it is a binary file.
+/home/guilherme/projects/aula2/build/cmake_install.cmake, code is 53, comment is 0, blank is 7.
+/home/guilherme/projects/aula2/build/CMakeCache.txt, code is 129, comment is 120, blank is 55.
+/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake, code is 54, comment is 0, blank is 13.
+/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake, code is 55, comment is 0, blank is 13.
+/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin, it is a binary file.
+/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin, it is a binary file.
+/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CMakeSystem.cmake, code is 10, comment is 0, blank is 5.
+/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CompilerIdC/a.out, it is a binary file.
+/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c, code is 399, comment is 49, blank is 96.
+/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out, it is a binary file.
+/home/guilherme/projects/aula2/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp, code is 387, comment is 52, blank is 94.
+/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/build.make, code is 35, comment is 0, blank is 22.
+/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/cmake_clean.cmake, code is 6, comment is 0, blank is 4.
+/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/CXX.includecache, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/depend.internal, code is 4, comment is 0, blank is 1.
+/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/depend.make, code is 3, comment is 0, blank is 2.
+/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/DependInfo.cmake, code is 15, comment is 0, blank is 5.
+/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/flags.make, code is 6, comment is 0, blank is 4.
+/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/link.txt, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/main.cpp.o, it is a binary file.
+/home/guilherme/projects/aula2/build/CMakeFiles/aula2.dir/progress.make, code is 2, comment is 0, blank is 1.
+/home/guilherme/projects/aula2/build/CMakeFiles/cmake.check_cache, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula2/build/CMakeFiles/CMakeDirectoryInformation.cmake, code is 12, comment is 0, blank is 4.
+/home/guilherme/projects/aula2/build/CMakeFiles/CMakeOutput.log, code is 498, comment is 4, blank is 56.
+/home/guilherme/projects/aula2/build/CMakeFiles/feature_tests.bin, it is a binary file.
+/home/guilherme/projects/aula2/build/CMakeFiles/feature_tests.c, code is 15, comment is 0, blank is 19.
+/home/guilherme/projects/aula2/build/CMakeFiles/feature_tests.cxx, code is 174, comment is 0, blank is 231.
+/home/guilherme/projects/aula2/build/CMakeFiles/Makefile.cmake, code is 16, comment is 0, blank is 29.
+/home/guilherme/projects/aula2/build/CMakeFiles/Makefile2, code is 72, comment is 0, blank is 36.
+/home/guilherme/projects/aula2/build/CMakeFiles/progress.marks, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula2/build/CMakeFiles/TargetDirectories.txt, code is 7, comment is 0, blank is 0.
+/home/guilherme/projects/aula2/build/Makefile, code is 162, comment is 0, blank is 64.
+/home/guilherme/projects/aula2/CMakeLists.txt, code is 4, comment is 0, blank is 2.
+/home/guilherme/projects/aula2/main.cpp, code is 53, comment is 8, blank is 27.
+/home/guilherme/projects/aula2/run.sh, code is 30, comment is 1, blank is 1.
+/home/guilherme/projects/aula3/build/aula3, it is a binary file.
+/home/guilherme/projects/aula3/build/cmake_install.cmake, code is 53, comment is 0, blank is 7.
+/home/guilherme/projects/aula3/build/CMakeCache.txt, code is 129, comment is 120, blank is 55.
+/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake, code is 54, comment is 0, blank is 13.
+/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake, code is 55, comment is 0, blank is 13.
+/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin, it is a binary file.
+/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin, it is a binary file.
+/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CMakeSystem.cmake, code is 10, comment is 0, blank is 5.
+/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CompilerIdC/a.out, it is a binary file.
+/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c, code is 399, comment is 49, blank is 96.
+/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out, it is a binary file.
+/home/guilherme/projects/aula3/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp, code is 387, comment is 52, blank is 94.
+/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/build.make, code is 35, comment is 0, blank is 22.
+/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/cmake_clean.cmake, code is 6, comment is 0, blank is 4.
+/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/CXX.includecache, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/depend.internal, code is 4, comment is 0, blank is 1.
+/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/depend.make, code is 3, comment is 0, blank is 2.
+/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/DependInfo.cmake, code is 15, comment is 0, blank is 5.
+/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/flags.make, code is 6, comment is 0, blank is 4.
+/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/link.txt, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/main.cpp.o, it is a binary file.
+/home/guilherme/projects/aula3/build/CMakeFiles/aula3.dir/progress.make, code is 2, comment is 0, blank is 1.
+/home/guilherme/projects/aula3/build/CMakeFiles/cmake.check_cache, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula3/build/CMakeFiles/CMakeDirectoryInformation.cmake, code is 12, comment is 0, blank is 4.
+/home/guilherme/projects/aula3/build/CMakeFiles/CMakeOutput.log, code is 498, comment is 4, blank is 56.
+/home/guilherme/projects/aula3/build/CMakeFiles/feature_tests.bin, it is a binary file.
+/home/guilherme/projects/aula3/build/CMakeFiles/feature_tests.c, code is 15, comment is 0, blank is 19.
+/home/guilherme/projects/aula3/build/CMakeFiles/feature_tests.cxx, code is 174, comment is 0, blank is 231.
+/home/guilherme/projects/aula3/build/CMakeFiles/Makefile.cmake, code is 16, comment is 0, blank is 29.
+/home/guilherme/projects/aula3/build/CMakeFiles/Makefile2, code is 72, comment is 0, blank is 36.
+/home/guilherme/projects/aula3/build/CMakeFiles/progress.marks, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula3/build/CMakeFiles/TargetDirectories.txt, code is 7, comment is 0, blank is 0.
+/home/guilherme/projects/aula3/build/Makefile, code is 162, comment is 0, blank is 64.
+/home/guilherme/projects/aula3/CMakeLists.txt, code is 4, comment is 0, blank is 2.
+/home/guilherme/projects/aula3/main.cpp, code is 36, comment is 1, blank is 16.
+/home/guilherme/projects/aula3/run.sh, code is 37, comment is 1, blank is 1.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/cmake_install.cmake, code is 53, comment is 0, blank is 7.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeCache.txt, code is 129, comment is 120, blank is 55.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake, code is 54, comment is 0, blank is 13.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake, code is 55, comment is 0, blank is 13.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin, it is a binary file.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin, it is a binary file.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CMakeSystem.cmake, code is 10, comment is 0, blank is 5.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CompilerIdC/a.out, it is a binary file.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c, code is 399, comment is 49, blank is 96.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out, it is a binary file.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp, code is 387, comment is 52, blank is 94.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/build.make, code is 35, comment is 0, blank is 22.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/circle.cpp.o, it is a binary file.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/cmake_clean.cmake, code is 6, comment is 0, blank is 5.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/CXX.includecache, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/depend.internal, code is 8, comment is 0, blank is 1.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/depend.make, code is 6, comment is 0, blank is 3.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/DependInfo.cmake, code is 15, comment is 0, blank is 6.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/flags.make, code is 6, comment is 0, blank is 4.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/link.txt, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/main.cpp.o, it is a binary file.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/aula4.dir/progress.make, code is 3, comment is 0, blank is 1.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/cmake.check_cache, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/CMakeDirectoryInformation.cmake, code is 12, comment is 0, blank is 4.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/CMakeOutput.log, code is 498, comment is 4, blank is 56.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/feature_tests.bin, it is a binary file.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/feature_tests.c, code is 15, comment is 0, blank is 19.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/feature_tests.cxx, code is 174, comment is 0, blank is 231.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/Makefile.cmake, code is 16, comment is 0, blank is 29.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/Makefile2, code is 72, comment is 0, blank is 36.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/progress.marks, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/Progress/1, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/Progress/3, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/Progress/count.txt, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/CMakeFiles/TargetDirectories.txt, code is 7, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/build/Makefile, code is 183, comment is 0, blank is 73.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/circle.cpp, code is 43, comment is 0, blank is 13.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/circle.hpp, code is 9, comment is 1, blank is 4.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/CMakeLists.txt, code is 4, comment is 0, blank is 2.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/main.cpp, code is 10, comment is 0, blank is 4.
+/home/guilherme/projects/aula4/classes-c-puro-arq-separados/run.sh, code is 37, comment is 1, blank is 1.
+/home/guilherme/projects/aula4/classes-c-puro/build/aula4, it is a binary file.
+/home/guilherme/projects/aula4/classes-c-puro/build/cmake_install.cmake, code is 53, comment is 0, blank is 7.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeCache.txt, code is 129, comment is 120, blank is 55.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake, code is 54, comment is 0, blank is 13.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake, code is 55, comment is 0, blank is 13.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin, it is a binary file.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin, it is a binary file.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CMakeSystem.cmake, code is 10, comment is 0, blank is 5.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CompilerIdC/a.out, it is a binary file.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c, code is 399, comment is 49, blank is 96.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out, it is a binary file.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp, code is 387, comment is 52, blank is 94.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/build.make, code is 35, comment is 0, blank is 22.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/cmake_clean.cmake, code is 6, comment is 0, blank is 4.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/CXX.includecache, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/depend.internal, code is 4, comment is 0, blank is 1.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/depend.make, code is 3, comment is 0, blank is 2.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/DependInfo.cmake, code is 15, comment is 0, blank is 5.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/flags.make, code is 6, comment is 0, blank is 4.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/link.txt, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/main.cpp.o, it is a binary file.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/aula4.dir/progress.make, code is 2, comment is 0, blank is 1.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/cmake.check_cache, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/CMakeDirectoryInformation.cmake, code is 12, comment is 0, blank is 4.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/CMakeOutput.log, code is 498, comment is 4, blank is 56.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/feature_tests.bin, it is a binary file.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/feature_tests.c, code is 15, comment is 0, blank is 19.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/feature_tests.cxx, code is 174, comment is 0, blank is 231.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/Makefile.cmake, code is 16, comment is 0, blank is 29.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/Makefile2, code is 72, comment is 0, blank is 36.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/progress.marks, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/classes-c-puro/build/CMakeFiles/TargetDirectories.txt, code is 7, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/classes-c-puro/build/Makefile, code is 162, comment is 0, blank is 64.
+/home/guilherme/projects/aula4/classes-c-puro/CMakeLists.txt, code is 4, comment is 0, blank is 2.
+/home/guilherme/projects/aula4/classes-c-puro/main.cpp, code is 27, comment is 4, blank is 14.
+/home/guilherme/projects/aula4/classes-c-puro/run.sh, code is 37, comment is 1, blank is 1.
+/home/guilherme/projects/aula4/cpp-matrix/build/aula4, it is a binary file.
+/home/guilherme/projects/aula4/cpp-matrix/build/cmake_install.cmake, code is 53, comment is 0, blank is 7.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeCache.txt, code is 129, comment is 120, blank is 55.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake, code is 54, comment is 0, blank is 13.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake, code is 55, comment is 0, blank is 13.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin, it is a binary file.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin, it is a binary file.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CMakeSystem.cmake, code is 10, comment is 0, blank is 5.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CompilerIdC/a.out, it is a binary file.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c, code is 399, comment is 49, blank is 96.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out, it is a binary file.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp, code is 387, comment is 52, blank is 94.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/build.make, code is 35, comment is 0, blank is 22.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/cmake_clean.cmake, code is 6, comment is 0, blank is 5.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/CXX.includecache, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/depend.internal, code is 8, comment is 0, blank is 1.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/depend.make, code is 6, comment is 0, blank is 3.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/DependInfo.cmake, code is 15, comment is 0, blank is 6.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/flags.make, code is 6, comment is 0, blank is 4.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/link.txt, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/main.cpp.o, it is a binary file.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/matrix.cpp.o, it is a binary file.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/aula4.dir/progress.make, code is 3, comment is 0, blank is 1.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/cmake.check_cache, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/CMakeDirectoryInformation.cmake, code is 12, comment is 0, blank is 4.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/CMakeOutput.log, code is 498, comment is 4, blank is 56.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/feature_tests.bin, it is a binary file.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/feature_tests.c, code is 15, comment is 0, blank is 19.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/feature_tests.cxx, code is 174, comment is 0, blank is 231.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/Makefile.cmake, code is 16, comment is 0, blank is 29.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/Makefile2, code is 72, comment is 0, blank is 36.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/progress.marks, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/cpp-matrix/build/CMakeFiles/TargetDirectories.txt, code is 7, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/cpp-matrix/build/Makefile, code is 183, comment is 0, blank is 73.
+/home/guilherme/projects/aula4/cpp-matrix/CMakeLists.txt, code is 4, comment is 0, blank is 2.
+/home/guilherme/projects/aula4/cpp-matrix/main.cpp, code is 24, comment is 2, blank is 13.
+/home/guilherme/projects/aula4/cpp-matrix/matrix.cpp, code is 44, comment is 0, blank is 8.
+/home/guilherme/projects/aula4/cpp-matrix/matrix.hpp, code is 13, comment is 1, blank is 4.
+/home/guilherme/projects/aula4/cpp-matrix/run.sh, code is 37, comment is 1, blank is 1.
+/home/guilherme/projects/aula4/cpp/build/aula4, it is a binary file.
+/home/guilherme/projects/aula4/cpp/build/cmake_install.cmake, code is 53, comment is 0, blank is 7.
+/home/guilherme/projects/aula4/cpp/build/CMakeCache.txt, code is 129, comment is 120, blank is 55.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake, code is 54, comment is 0, blank is 13.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake, code is 55, comment is 0, blank is 13.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin, it is a binary file.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin, it is a binary file.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CMakeSystem.cmake, code is 10, comment is 0, blank is 5.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CompilerIdC/a.out, it is a binary file.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c, code is 399, comment is 49, blank is 96.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out, it is a binary file.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp, code is 387, comment is 52, blank is 94.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/build.make, code is 35, comment is 0, blank is 22.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/circle.cpp.o, it is a binary file.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/cmake_clean.cmake, code is 6, comment is 0, blank is 5.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/CXX.includecache, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/depend.internal, code is 8, comment is 0, blank is 1.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/depend.make, code is 6, comment is 0, blank is 3.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/DependInfo.cmake, code is 15, comment is 0, blank is 6.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/flags.make, code is 6, comment is 0, blank is 4.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/link.txt, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/main.cpp.o, it is a binary file.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/aula4.dir/progress.make, code is 3, comment is 0, blank is 1.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/cmake.check_cache, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/CMakeDirectoryInformation.cmake, code is 12, comment is 0, blank is 4.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/CMakeOutput.log, code is 498, comment is 4, blank is 56.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/feature_tests.bin, it is a binary file.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/feature_tests.c, code is 15, comment is 0, blank is 19.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/feature_tests.cxx, code is 174, comment is 0, blank is 231.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/Makefile.cmake, code is 16, comment is 0, blank is 29.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/Makefile2, code is 72, comment is 0, blank is 36.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/progress.marks, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/cpp/build/CMakeFiles/TargetDirectories.txt, code is 7, comment is 0, blank is 0.
+/home/guilherme/projects/aula4/cpp/build/Makefile, code is 183, comment is 0, blank is 73.
+/home/guilherme/projects/aula4/cpp/circle.cpp, code is 40, comment is 3, blank is 12.
+/home/guilherme/projects/aula4/cpp/circle.hpp, code is 18, comment is 0, blank is 5.
+/home/guilherme/projects/aula4/cpp/CMakeLists.txt, code is 4, comment is 0, blank is 2.
+/home/guilherme/projects/aula4/cpp/main.cpp, code is 28, comment is 4, blank is 15.
+/home/guilherme/projects/aula4/cpp/run.sh, code is 37, comment is 1, blank is 1.
+/home/guilherme/projects/aula5/herança/build/aula5, it is a binary file.
+/home/guilherme/projects/aula5/herança/build/cmake_install.cmake, code is 53, comment is 0, blank is 7.
+/home/guilherme/projects/aula5/herança/build/CMakeCache.txt, code is 129, comment is 120, blank is 55.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake, code is 54, comment is 0, blank is 13.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake, code is 55, comment is 0, blank is 13.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin, it is a binary file.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin, it is a binary file.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CMakeSystem.cmake, code is 10, comment is 0, blank is 5.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CompilerIdC/a.out, it is a binary file.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c, code is 399, comment is 49, blank is 96.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out, it is a binary file.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp, code is 387, comment is 52, blank is 94.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/build.make, code is 35, comment is 0, blank is 22.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/cmake_clean.cmake, code is 6, comment is 0, blank is 6.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/CXX.includecache, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/depend.internal, code is 13, comment is 0, blank is 1.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/depend.make, code is 10, comment is 0, blank is 4.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/DependInfo.cmake, code is 15, comment is 0, blank is 7.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/flags.make, code is 6, comment is 0, blank is 4.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/link.txt, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/main.cpp.o, it is a binary file.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/polygon.cpp.o, it is a binary file.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/progress.make, code is 4, comment is 0, blank is 1.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/aula5.dir/square.cpp.o, it is a binary file.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/cmake.check_cache, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/CMakeDirectoryInformation.cmake, code is 12, comment is 0, blank is 4.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/CMakeOutput.log, code is 498, comment is 4, blank is 56.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/feature_tests.bin, it is a binary file.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/feature_tests.c, code is 15, comment is 0, blank is 19.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/feature_tests.cxx, code is 174, comment is 0, blank is 231.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/Makefile.cmake, code is 16, comment is 0, blank is 29.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/Makefile2, code is 72, comment is 0, blank is 36.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/progress.marks, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula5/herança/build/CMakeFiles/TargetDirectories.txt, code is 7, comment is 0, blank is 0.
+/home/guilherme/projects/aula5/herança/build/Makefile, code is 204, comment is 0, blank is 82.
+/home/guilherme/projects/aula5/herança/CMakeLists.txt, code is 4, comment is 0, blank is 2.
+/home/guilherme/projects/aula5/herança/main.cpp, code is 10, comment is 0, blank is 5.
+/home/guilherme/projects/aula5/herança/polygon.cpp, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula5/herança/polygon.hpp, code is 11, comment is 1, blank is 3.
+/home/guilherme/projects/aula5/herança/run.sh, code is 37, comment is 1, blank is 1.
+/home/guilherme/projects/aula5/herança/square.cpp, code is 13, comment is 0, blank is 3.
+/home/guilherme/projects/aula5/herança/square.hpp, code is 13, comment is 1, blank is 4.
+/home/guilherme/projects/aula5/polimorfismo/CMakeLists.txt, code is 4, comment is 0, blank is 2.
+/home/guilherme/projects/aula5/polimorfismo/main.cpp, code is 10, comment is 0, blank is 5.
+/home/guilherme/projects/aula5/polimorfismo/polygon.cpp, code is 1, comment is 0, blank is 0.
+/home/guilherme/projects/aula5/polimorfismo/polygon.hpp, code is 11, comment is 1, blank is 3.
+/home/guilherme/projects/aula5/polimorfismo/run.sh, code is 37, comment is 1, blank is 1.
+/home/guilherme/projects/aula5/polimorfismo/square.cpp, code is 13, comment is 0, blank is 3.
+/home/guilherme/projects/aula5/polimorfismo/square.hpp, code is 13, comment is 1, blank is 4.
+/home/guilherme/projects/aulacpp.sublime-project, code is 8, comment is 0, blank is 0.
+/home/guilherme/projects/aulacpp.sublime-workspace, code is 605, comment is 0, blank is 30.
+/home/guilherme/projects/newProject.sh, code is 0, comment is 0, blank is 0.
+build/client, it is a binary file.
+build/cmake_install.cmake, code is 38, comment is 0, blank is 6.
+build/CMakeCache.txt, code is 173, comment is 164, blank is 72.
+build/CMakeFiles/3.5.1/CMakeCCompiler.cmake, code is 54, comment is 0, blank is 13.
+build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake, code is 55, comment is 0, blank is 13.
+build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin, it is a binary file.
+build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin, it is a binary file.
+build/CMakeFiles/3.5.1/CMakeSystem.cmake, code is 10, comment is 0, blank is 5.
+build/CMakeFiles/3.5.1/CompilerIdC/a.out, it is a binary file.
+build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c, code is 399, comment is 49, blank is 96.
+build/CMakeFiles/3.5.1/CompilerIdCXX/a.out, it is a binary file.
+build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp, code is 387, comment is 52, blank is 94.
+build/CMakeFiles/client.dir/build.make, code is 35, comment is 0, blank is 22.
+build/CMakeFiles/client.dir/client.cpp.o, it is a binary file.
+build/CMakeFiles/client.dir/cmake_clean.cmake, code is 6, comment is 0, blank is 5.
+build/CMakeFiles/client.dir/CXX.includecache, code is 1, comment is 0, blank is 0.
+build/CMakeFiles/client.dir/depend.internal, code is 8, comment is 0, blank is 1.
+build/CMakeFiles/client.dir/depend.make, code is 6, comment is 0, blank is 3.
+build/CMakeFiles/client.dir/DependInfo.cmake, code is 15, comment is 0, blank is 7.
+build/CMakeFiles/client.dir/flags.make, code is 6, comment is 0, blank is 4.
+build/CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o, it is a binary file.
+build/CMakeFiles/client.dir/link.txt, code is 1, comment is 0, blank is 0.
+build/CMakeFiles/client.dir/progress.make, code is 3, comment is 0, blank is 1.
+build/CMakeFiles/cmake.check_cache, code is 1, comment is 0, blank is 0.
+build/CMakeFiles/CMakeDirectoryInformation.cmake, code is 12, comment is 0, blank is 4.
+build/CMakeFiles/CMakeError.log, code is 29, comment is 1, blank is 4.
+build/CMakeFiles/CMakeOutput.log, code is 507, comment is 4, blank is 59.
+build/CMakeFiles/feature_tests.bin, it is a binary file.
+build/CMakeFiles/feature_tests.c, code is 15, comment is 0, blank is 19.
+build/CMakeFiles/feature_tests.cxx, code is 174, comment is 0, blank is 231.
+build/CMakeFiles/kukacpp.dir/build.make, code is 35, comment is 0, blank is 22.
+build/CMakeFiles/kukacpp.dir/cmake_clean.cmake, code is 6, comment is 0, blank is 7.
+build/CMakeFiles/kukacpp.dir/CXX.includecache, code is 1, comment is 0, blank is 0.
+build/CMakeFiles/kukacpp.dir/depend.internal, code is 19, comment is 0, blank is 1.
+build/CMakeFiles/kukacpp.dir/depend.make, code is 15, comment is 0, blank is 5.
+build/CMakeFiles/kukacpp.dir/DependInfo.cmake, code is 15, comment is 0, blank is 11.
+build/CMakeFiles/kukacpp.dir/flags.make, code is 6, comment is 0, blank is 4.
+build/CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o, it is a binary file.
+build/CMakeFiles/kukacpp.dir/link.txt, code is 1, comment is 0, blank is 0.
+build/CMakeFiles/kukacpp.dir/main.cpp.o, it is a binary file.
+build/CMakeFiles/kukacpp.dir/progress.make, code is 5, comment is 0, blank is 1.
+build/CMakeFiles/kukacpp.dir/robotKuka.cpp.o, it is a binary file.
+build/CMakeFiles/kukacpp.dir/utils/models.cpp.o, it is a binary file.
+build/CMakeFiles/Makefile.cmake, code is 16, comment is 0, blank is 39.
+build/CMakeFiles/Makefile2, code is 99, comment is 0, blank is 46.
+build/CMakeFiles/progress.marks, code is 1, comment is 0, blank is 0.
+build/CMakeFiles/TargetDirectories.txt, code is 4, comment is 0, blank is 0.
+build/first_xml_send.xml, code is 3, comment is 0, blank is 0.
+build/kukacpp, it is a binary file.
+build/Makefile, code is 223, comment is 0, blank is 92.
+build/xml_send_example.xml, code is 17, comment is 0, blank is 0.
+client.cpp, code is 18, comment is 0, blank is 1.
+CMakeLists.txt, code is 24, comment is 0, blank is 8.
+include/rapidxml-1.13/license.txt, code is 42, comment is 0, blank is 10.
+include/rapidxml-1.13/manual.html, code is 383, comment is 0, blank is 23.
+include/rapidxml-1.13/rapidxml.hpp, code is 1637, comment is 968, blank is 285.
+include/rapidxml-1.13/rapidxml_iterators.hpp, code is 131, comment is 6, blank is 37.
+include/rapidxml-1.13/rapidxml_print.hpp, code is 298, comment is 76, blank is 51.
+include/rapidxml-1.13/rapidxml_utils.hpp, code is 77, comment is 25, blank is 21.
+include/udp-client-server/udp_client_server.cpp, code is 123, comment is 176, blank is 24.
+include/udp-client-server/udp_client_server.h, code is 46, comment is 3, blank is 15.
+kukacpp_ws.code-workspace, code is 55, comment is 0, blank is 0.
+main.cpp, code is 16, comment is 2, blank is 8.
+README.md, code is 7, comment is 1, blank is 1.
+robotKuka.cpp, code is 51, comment is 4, blank is 19.
+robotKuka.hpp, code is 17, comment is 1, blank is 5.
+run.sh, code is 37, comment is 1, blank is 1.
+test/test.cpp, code is 9, comment is 0, blank is 1.
+utils/models.cpp, code is 341, comment is 7, blank is 71.
+utils/models.hpp, code is 119, comment is 1, blank is 22.
+utils/xml_handler.hpp, code is 130, comment is 33, blank is 36.
+===============================================================================

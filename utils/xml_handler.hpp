@@ -1,6 +1,8 @@
 #include "rapidxml.hpp"
+#include "rapidxml_print.hpp"
 #include <string.h>
 #include <iostream>
+#include <fstream>
 #include <cstdlib>
 #include "models.hpp"
 #include <vector>
@@ -119,12 +121,39 @@ Data get_data_from_xml_receive(const char* xml_send)
     rapidxml::xml_node<> *ipoc_node = root_node->first_node("IPOC");
         data.set_ipoc(atoi(ipoc_node->value()));
 
-    data.print();
 
     return data;
 }
 
+//void generate_xml_receive(Coordinates move, Axes rotate, DigitalOutputs dig_out, unsigned int ipoc)
+void generate_xml_receive()
+{
+    // Write xml file =================================
+    rapidxml::xml_document<> doc;
+    
+    rapidxml::xml_node<>* root = doc.allocate_node(rapidxml::node_element, "rootnode");
+    root->append_attribute(doc.allocate_attribute("version", "1.0"));
+    root->append_attribute(doc.allocate_attribute("type", "example"));
+    doc.append_node(root);
+    
+    rapidxml::xml_node<>* child = doc.allocate_node(rapidxml::node_element, "childnode");
+    child->append_attribute(doc.allocate_attribute("A1", "1.0"));
+    child->append_attribute(doc.allocate_attribute("A2", "0.3343"));
+    child->value("Aqui é o valoooor");
+    root->append_node(child);
 
+    std::cout << doc;
+    
+    // Convert doc to string if needed
+    std::string xml_as_string;
+    rapidxml::print(std::back_inserter(xml_as_string), doc);
+    
+    // Save to file
+    std::ofstream file_stored("file_stored.xml");
+    file_stored << doc;
+    file_stored.close();
+    doc.clear();
+}
 
 
 
