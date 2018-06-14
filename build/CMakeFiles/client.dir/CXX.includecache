@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+../include/udp-client-server/udp_client_server.h
+sys/types.h
+-
+sys/socket.h
+-
+netdb.h
+-
+stdexcept
+-
+
 /home/guilherme/drive/research/ic-glauco/kuka-cpp/client.cpp
 iostream
 -
@@ -14,15 +24,15 @@ udp_client_server.h
 unistd.h
 -
 
-/home/guilherme/drive/research/ic-glauco/kuka-cpp/udp_client_server.cpp
+/home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server/udp_client_server.cpp
 udp_client_server.h
-/home/guilherme/drive/research/ic-glauco/kuka-cpp/udp_client_server.h
+/home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server/udp_client_server.h
 string.h
 -
 unistd.h
 -
 
-/home/guilherme/drive/research/ic-glauco/kuka-cpp/udp_client_server.h
+/home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server/udp_client_server.h
 sys/types.h
 -
 sys/socket.h

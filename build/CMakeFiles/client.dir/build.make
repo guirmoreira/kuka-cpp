@@ -81,40 +81,40 @@ CMakeFiles/client.dir/client.cpp.o.provides: CMakeFiles/client.dir/client.cpp.o.
 CMakeFiles/client.dir/client.cpp.o.provides.build: CMakeFiles/client.dir/client.cpp.o
 
 
-CMakeFiles/client.dir/udp_client_server.cpp.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/udp_client_server.cpp.o: ../udp_client_server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/client.dir/udp_client_server.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/udp_client_server.cpp.o -c /home/guilherme/drive/research/ic-glauco/kuka-cpp/udp_client_server.cpp
+CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o: ../include/udp-client-server/udp_client_server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o -c /home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server/udp_client_server.cpp
 
-CMakeFiles/client.dir/udp_client_server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/udp_client_server.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guilherme/drive/research/ic-glauco/kuka-cpp/udp_client_server.cpp > CMakeFiles/client.dir/udp_client_server.cpp.i
+CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server/udp_client_server.cpp > CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.i
 
-CMakeFiles/client.dir/udp_client_server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/udp_client_server.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guilherme/drive/research/ic-glauco/kuka-cpp/udp_client_server.cpp -o CMakeFiles/client.dir/udp_client_server.cpp.s
+CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server/udp_client_server.cpp -o CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.s
 
-CMakeFiles/client.dir/udp_client_server.cpp.o.requires:
+CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o.requires:
 
-.PHONY : CMakeFiles/client.dir/udp_client_server.cpp.o.requires
+.PHONY : CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o.requires
 
-CMakeFiles/client.dir/udp_client_server.cpp.o.provides: CMakeFiles/client.dir/udp_client_server.cpp.o.requires
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/udp_client_server.cpp.o.provides.build
-.PHONY : CMakeFiles/client.dir/udp_client_server.cpp.o.provides
+CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o.provides: CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o.requires
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o.provides.build
+.PHONY : CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o.provides
 
-CMakeFiles/client.dir/udp_client_server.cpp.o.provides.build: CMakeFiles/client.dir/udp_client_server.cpp.o
+CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o.provides.build: CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o
 
 
 # Object files for target client
 client_OBJECTS = \
 "CMakeFiles/client.dir/client.cpp.o" \
-"CMakeFiles/client.dir/udp_client_server.cpp.o"
+"CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o"
 
 # External object files for target client
 client_EXTERNAL_OBJECTS =
 
 client: CMakeFiles/client.dir/client.cpp.o
-client: CMakeFiles/client.dir/udp_client_server.cpp.o
+client: CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o
 client: CMakeFiles/client.dir/build.make
 client: CMakeFiles/client.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable client"
@@ -126,7 +126,7 @@ CMakeFiles/client.dir/build: client
 .PHONY : CMakeFiles/client.dir/build
 
 CMakeFiles/client.dir/requires: CMakeFiles/client.dir/client.cpp.o.requires
-CMakeFiles/client.dir/requires: CMakeFiles/client.dir/udp_client_server.cpp.o.requires
+CMakeFiles/client.dir/requires: CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o.requires
 
 .PHONY : CMakeFiles/client.dir/requires
 

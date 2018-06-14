@@ -163,6 +163,36 @@ client.cpp.s:
 	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.cpp.s
 .PHONY : client.cpp.s
 
+include/udp-client-server/udp_client_server.o: include/udp-client-server/udp_client_server.cpp.o
+
+.PHONY : include/udp-client-server/udp_client_server.o
+
+# target to build an object file
+include/udp-client-server/udp_client_server.cpp.o:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o
+	$(MAKE) -f CMakeFiles/kukacpp.dir/build.make CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o
+.PHONY : include/udp-client-server/udp_client_server.cpp.o
+
+include/udp-client-server/udp_client_server.i: include/udp-client-server/udp_client_server.cpp.i
+
+.PHONY : include/udp-client-server/udp_client_server.i
+
+# target to preprocess a source file
+include/udp-client-server/udp_client_server.cpp.i:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.i
+	$(MAKE) -f CMakeFiles/kukacpp.dir/build.make CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.i
+.PHONY : include/udp-client-server/udp_client_server.cpp.i
+
+include/udp-client-server/udp_client_server.s: include/udp-client-server/udp_client_server.cpp.s
+
+.PHONY : include/udp-client-server/udp_client_server.s
+
+# target to generate assembly for a file
+include/udp-client-server/udp_client_server.cpp.s:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.s
+	$(MAKE) -f CMakeFiles/kukacpp.dir/build.make CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.s
+.PHONY : include/udp-client-server/udp_client_server.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -217,35 +247,32 @@ robotKuka.cpp.s:
 	$(MAKE) -f CMakeFiles/kukacpp.dir/build.make CMakeFiles/kukacpp.dir/robotKuka.cpp.s
 .PHONY : robotKuka.cpp.s
 
-udp_client_server.o: udp_client_server.cpp.o
+utils/models.o: utils/models.cpp.o
 
-.PHONY : udp_client_server.o
+.PHONY : utils/models.o
 
 # target to build an object file
-udp_client_server.cpp.o:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/udp_client_server.cpp.o
-	$(MAKE) -f CMakeFiles/kukacpp.dir/build.make CMakeFiles/kukacpp.dir/udp_client_server.cpp.o
-.PHONY : udp_client_server.cpp.o
+utils/models.cpp.o:
+	$(MAKE) -f CMakeFiles/kukacpp.dir/build.make CMakeFiles/kukacpp.dir/utils/models.cpp.o
+.PHONY : utils/models.cpp.o
 
-udp_client_server.i: udp_client_server.cpp.i
+utils/models.i: utils/models.cpp.i
 
-.PHONY : udp_client_server.i
+.PHONY : utils/models.i
 
 # target to preprocess a source file
-udp_client_server.cpp.i:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/udp_client_server.cpp.i
-	$(MAKE) -f CMakeFiles/kukacpp.dir/build.make CMakeFiles/kukacpp.dir/udp_client_server.cpp.i
-.PHONY : udp_client_server.cpp.i
+utils/models.cpp.i:
+	$(MAKE) -f CMakeFiles/kukacpp.dir/build.make CMakeFiles/kukacpp.dir/utils/models.cpp.i
+.PHONY : utils/models.cpp.i
 
-udp_client_server.s: udp_client_server.cpp.s
+utils/models.s: utils/models.cpp.s
 
-.PHONY : udp_client_server.s
+.PHONY : utils/models.s
 
 # target to generate assembly for a file
-udp_client_server.cpp.s:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/udp_client_server.cpp.s
-	$(MAKE) -f CMakeFiles/kukacpp.dir/build.make CMakeFiles/kukacpp.dir/udp_client_server.cpp.s
-.PHONY : udp_client_server.cpp.s
+utils/models.cpp.s:
+	$(MAKE) -f CMakeFiles/kukacpp.dir/build.make CMakeFiles/kukacpp.dir/utils/models.cpp.s
+.PHONY : utils/models.cpp.s
 
 # Help Target
 help:
@@ -260,15 +287,18 @@ help:
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"
+	@echo "... include/udp-client-server/udp_client_server.o"
+	@echo "... include/udp-client-server/udp_client_server.i"
+	@echo "... include/udp-client-server/udp_client_server.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... robotKuka.o"
 	@echo "... robotKuka.i"
 	@echo "... robotKuka.s"
-	@echo "... udp_client_server.o"
-	@echo "... udp_client_server.i"
-	@echo "... udp_client_server.s"
+	@echo "... utils/models.o"
+	@echo "... utils/models.i"
+	@echo "... utils/models.s"
 .PHONY : help
 
 

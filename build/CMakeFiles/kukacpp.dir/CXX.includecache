@@ -6,6 +6,62 @@
 
 #IncludeRegexTransform: 
 
+../include/rapidxml-1.13/rapidxml.hpp
+cstdlib
+-
+cassert
+-
+new
+-
+exception
+-
+
+../include/udp-client-server/udp_client_server.h
+sys/types.h
+-
+sys/socket.h
+-
+netdb.h
+-
+stdexcept
+-
+
+../utils/models.hpp
+
+../utils/xml_handler.hpp
+rapidxml.hpp
+../utils/rapidxml.hpp
+string.h
+-
+iostream
+-
+cstdlib
+-
+models.hpp
+../utils/models.hpp
+vector
+-
+fstream
+-
+
+/home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server/udp_client_server.cpp
+udp_client_server.h
+/home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server/udp_client_server.h
+string.h
+-
+unistd.h
+-
+
+/home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server/udp_client_server.h
+sys/types.h
+-
+sys/socket.h
+-
+netdb.h
+-
+stdexcept
+-
+
 /home/guilherme/drive/research/ic-glauco/kuka-cpp/main.cpp
 iostream
 -
@@ -15,6 +71,8 @@ robotKuka.hpp
 /home/guilherme/drive/research/ic-glauco/kuka-cpp/robotKuka.hpp
 unistd.h
 -
+xml_handler.hpp
+/home/guilherme/drive/research/ic-glauco/kuka-cpp/xml_handler.hpp
 
 /home/guilherme/drive/research/ic-glauco/kuka-cpp/robotKuka.cpp
 iostream
@@ -31,28 +89,18 @@ pthread.h
 -
 unistd.h
 -
-mutex
+boost/thread.hpp
 -
 
 /home/guilherme/drive/research/ic-glauco/kuka-cpp/robotKuka.hpp
 pthread.h
 -
 
-/home/guilherme/drive/research/ic-glauco/kuka-cpp/udp_client_server.cpp
-udp_client_server.h
-/home/guilherme/drive/research/ic-glauco/kuka-cpp/udp_client_server.h
-string.h
--
-unistd.h
+/home/guilherme/drive/research/ic-glauco/kuka-cpp/utils/models.cpp
+models.hpp
+/home/guilherme/drive/research/ic-glauco/kuka-cpp/utils/models.hpp
+iostream
 -
 
-/home/guilherme/drive/research/ic-glauco/kuka-cpp/udp_client_server.h
-sys/types.h
--
-sys/socket.h
--
-netdb.h
--
-stdexcept
--
+/home/guilherme/drive/research/ic-glauco/kuka-cpp/utils/models.hpp
 

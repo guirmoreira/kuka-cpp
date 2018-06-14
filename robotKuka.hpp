@@ -4,7 +4,7 @@
 
 class RobotKuka
 {
-  public:
+public:
 	RobotKuka(float CYCLE_TIME);
 	RobotKuka();
 
@@ -14,13 +14,9 @@ class RobotKuka
 	void set_communicator_running_flag(bool value);
 	bool *get_communicator_running_flag();
 
-	pthread_t communication_thread;
-	pthread_t control_thread;
-
-  private:
+private:
 	float CYCLE_TIME;
 	bool *communicator_running_flag;
-
 };
 
 #endif // ROBOTKUKA_HPP

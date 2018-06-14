@@ -47,7 +47,9 @@
 			"thread": "cpp",
 			"cinttypes": "cpp",
 			"typeindex": "cpp",
-			"mutex": "cpp"
+			"mutex": "cpp",
+			"csignal": "cpp",
+			"fstream": "cpp"
 		}
 	}
 }

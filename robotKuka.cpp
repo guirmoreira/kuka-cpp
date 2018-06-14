@@ -7,7 +7,7 @@
 #include <unistd.h>  // sleep,
 #include <boost/thread.hpp>
 
-// Threadrrs awsome tutorial: https://www.tutorialspoint.com/cplusplus/cpp_multithreading.htm
+// Threads awsome tutorial: https://www.tutorialspoint.com/cplusplus/cpp_multithreading.htm
 
 RobotKuka::RobotKuka(float CYCLE_TIME)
 {
@@ -29,32 +29,16 @@ bool *RobotKuka::get_communicator_running_flag()
 	return this->communicator_running_flag;
 }
 
-struct connection_info
-{
-	const char *ip;
-	unsigned int port;
-	bool *running_flag;
-};
 
-void *connection(void *args)
+void connection(char *const ip, unsigned int port, bool* running_flag)
 {	
-
-	struct connection_info *connection_info;
-	//connection_info = (struct connection_info *) malloc(sizeof(struct connection_info));
-	connection_info = (struct connection_info *)args;
-
-	const char *ip = connection_info->ip;
-	unsigned int port = connection_info->port;
-	bool *running_flag = connection_info->running_flag;
-
 	std::cout << "IPv4: " << ip << std::endl;
 
-	std::cout << "Porta: " << connection_info->port << std::endl;
+	std::cout << "Porta: " << port << std::endl;
 
-	udp_client_server::udp_server server(connection_info->ip, connection_info->port);
+	std::cout << "Flag: " << *running_flag << std::endl;
 
-	//free(connection_info);
-
+	udp_client_server::udp_server server(ip, port);
 
 	while (*running_flag)
 	{
@@ -67,35 +51,21 @@ void *connection(void *args)
 	pthread_exit(NULL);
 }
 
+
 void RobotKuka::startCommunicator(char *const ip, unsigned int port)
 {
 	std::cout << "Comunicação iniciada..." << std::endl;
 
-	struct connection_info con_info;
-	con_info.ip = ip;
-	con_info.port = port;
-	con_info.running_flag = communicator_running_flag;
-	int rc;
+	bool flag = true;
 
-	RobotKuka::set_communicator_running_flag(true);
+	RobotKuka::set_communicator_running_flag(flag);
 
-	rc = pthread_create(&communication_thread, NULL, &connection, (void *)&con_info);
-	if(rc){
-		std::cout << "Falha ao criar a thread de comunicação. Saindo..." << std::endl;
-		exit(-1);
-	}
-
-	rc = pthread_join(communication_thread, NULL);
-	usleep(500);
-	rc = pthread_detach(communication_thread);
-
-	std::cout << "rc: " << rc << std::endl;
-
-
+	boost::thread communication_thread(connection, ip, port, communicator_running_flag);
 
 }
 
 void RobotKuka::stopCommunicator()
 {
-	*communicator_running_flag = false;
+	bool flag = false;
+	RobotKuka::set_communicator_running_flag(flag);
 }

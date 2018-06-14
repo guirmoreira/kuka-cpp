@@ -4,14 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server/udp_client_server.cpp" "/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o"
   "/home/guilherme/drive/research/ic-glauco/kuka-cpp/main.cpp" "/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles/kukacpp.dir/main.cpp.o"
   "/home/guilherme/drive/research/ic-glauco/kuka-cpp/robotKuka.cpp" "/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles/kukacpp.dir/robotKuka.cpp.o"
-  "/home/guilherme/drive/research/ic-glauco/kuka-cpp/udp_client_server.cpp" "/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles/kukacpp.dir/udp_client_server.cpp.o"
+  "/home/guilherme/drive/research/ic-glauco/kuka-cpp/utils/models.cpp" "/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles/kukacpp.dir/utils/models.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include/rapidxml-1.13"
+  "../include/udp-client-server"
+  "../utils"
   )
 
 # Targets to which this target links.

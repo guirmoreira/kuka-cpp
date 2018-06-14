@@ -5,12 +5,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/guilherme/drive/research/ic-glauco/kuka-cpp/client.cpp" "/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles/client.dir/client.cpp.o"
-  "/home/guilherme/drive/research/ic-glauco/kuka-cpp/udp_client_server.cpp" "/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles/client.dir/udp_client_server.cpp.o"
+  "/home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server/udp_client_server.cpp" "/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include/udp-client-server"
   )
 
 # Targets to which this target links.
