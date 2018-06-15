@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/kukacpp.dir/main.cpp.o"
   "CMakeFiles/kukacpp.dir/robotKuka.cpp.o"
-  "CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o"
   "CMakeFiles/kukacpp.dir/utils/models.cpp.o"
   "kukacpp.pdb"
   "kukacpp"

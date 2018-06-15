@@ -105,33 +105,9 @@ CMakeFiles/kukacpp.dir/robotKuka.cpp.o.provides: CMakeFiles/kukacpp.dir/robotKuk
 CMakeFiles/kukacpp.dir/robotKuka.cpp.o.provides.build: CMakeFiles/kukacpp.dir/robotKuka.cpp.o
 
 
-CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o: CMakeFiles/kukacpp.dir/flags.make
-CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o: ../include/udp-client-server/udp_client_server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o -c /home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server/udp_client_server.cpp
-
-CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server/udp_client_server.cpp > CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.i
-
-CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server/udp_client_server.cpp -o CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.s
-
-CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o.requires:
-
-.PHONY : CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o.requires
-
-CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o.provides: CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o.requires
-	$(MAKE) -f CMakeFiles/kukacpp.dir/build.make CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o.provides.build
-.PHONY : CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o.provides
-
-CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o.provides.build: CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o
-
-
 CMakeFiles/kukacpp.dir/utils/models.cpp.o: CMakeFiles/kukacpp.dir/flags.make
 CMakeFiles/kukacpp.dir/utils/models.cpp.o: ../utils/models.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/kukacpp.dir/utils/models.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/kukacpp.dir/utils/models.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kukacpp.dir/utils/models.cpp.o -c /home/guilherme/drive/research/ic-glauco/kuka-cpp/utils/models.cpp
 
 CMakeFiles/kukacpp.dir/utils/models.cpp.i: cmake_force
@@ -157,7 +133,6 @@ CMakeFiles/kukacpp.dir/utils/models.cpp.o.provides.build: CMakeFiles/kukacpp.dir
 kukacpp_OBJECTS = \
 "CMakeFiles/kukacpp.dir/main.cpp.o" \
 "CMakeFiles/kukacpp.dir/robotKuka.cpp.o" \
-"CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o" \
 "CMakeFiles/kukacpp.dir/utils/models.cpp.o"
 
 # External object files for target kukacpp
@@ -165,7 +140,6 @@ kukacpp_EXTERNAL_OBJECTS =
 
 kukacpp: CMakeFiles/kukacpp.dir/main.cpp.o
 kukacpp: CMakeFiles/kukacpp.dir/robotKuka.cpp.o
-kukacpp: CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o
 kukacpp: CMakeFiles/kukacpp.dir/utils/models.cpp.o
 kukacpp: CMakeFiles/kukacpp.dir/build.make
 kukacpp: /usr/lib/x86_64-linux-gnu/libboost_thread.so
@@ -175,7 +149,7 @@ kukacpp: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
 kukacpp: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 kukacpp: /usr/lib/x86_64-linux-gnu/libpthread.so
 kukacpp: CMakeFiles/kukacpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable kukacpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guilherme/drive/research/ic-glauco/kuka-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable kukacpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kukacpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -185,7 +159,6 @@ CMakeFiles/kukacpp.dir/build: kukacpp
 
 CMakeFiles/kukacpp.dir/requires: CMakeFiles/kukacpp.dir/main.cpp.o.requires
 CMakeFiles/kukacpp.dir/requires: CMakeFiles/kukacpp.dir/robotKuka.cpp.o.requires
-CMakeFiles/kukacpp.dir/requires: CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o.requires
 CMakeFiles/kukacpp.dir/requires: CMakeFiles/kukacpp.dir/utils/models.cpp.o.requires
 
 .PHONY : CMakeFiles/kukacpp.dir/requires

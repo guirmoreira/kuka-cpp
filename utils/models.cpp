@@ -1,5 +1,7 @@
 #include "models.hpp"
 #include <iostream>
+#include <cstdlib>  // malloc
+#include <cstdio>   // sprintf
 
 // COORDINATES methods
 
@@ -52,6 +54,8 @@ float Coordinates::get_c()
 {
     return this->c;
 }
+
+// SET ----------------------------------------------------------
 
 void Coordinates::set_x(float x)
 {
@@ -124,6 +128,8 @@ Axes::Axes(float a1, float a2, float a3, float a4, float a5, float a6)
     this->a6 = a6;
 }
 
+// GETTERS --------------------------------------------
+
 float Axes::get_a1()
 {
     return this->a1;
@@ -153,6 +159,8 @@ float Axes::get_a6()
 {
     return this->a6;
 }
+
+// SETTERS --------------------------------------------
 
 void Axes::set_a1(float a1)
 {

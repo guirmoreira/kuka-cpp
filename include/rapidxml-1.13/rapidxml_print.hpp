@@ -102,6 +102,7 @@ namespace rapidxml
         ///////////////////////////////////////////////////////////////////////////
         // Internal printing operations
         //Added to corret compiling problems (not native)
+        // Based on: https://stackoverflow.com/questions/14113923/rapidxml-print-header-has-undefined-methods
         template<class OutIt, class Ch>
         inline OutIt print_children(OutIt out, const xml_node<Ch> *node, int flags, int indent);
 

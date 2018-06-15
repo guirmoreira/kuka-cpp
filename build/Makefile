@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/guilherme/drive/research/ic-glauco/kuka-cpp/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named client
-
-# Build rule for target.
-client: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 client
-.PHONY : client
-
-# fast build rule for target.
-client/fast:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
-.PHONY : client/fast
-
-#=============================================================================
 # Target rules for targets named kukacpp
 
 # Build rule for target.
@@ -135,63 +122,6 @@ kukacpp: cmake_check_build_system
 kukacpp/fast:
 	$(MAKE) -f CMakeFiles/kukacpp.dir/build.make CMakeFiles/kukacpp.dir/build
 .PHONY : kukacpp/fast
-
-client.o: client.cpp.o
-
-.PHONY : client.o
-
-# target to build an object file
-client.cpp.o:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.cpp.o
-.PHONY : client.cpp.o
-
-client.i: client.cpp.i
-
-.PHONY : client.i
-
-# target to preprocess a source file
-client.cpp.i:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.cpp.i
-.PHONY : client.cpp.i
-
-client.s: client.cpp.s
-
-.PHONY : client.s
-
-# target to generate assembly for a file
-client.cpp.s:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.cpp.s
-.PHONY : client.cpp.s
-
-include/udp-client-server/udp_client_server.o: include/udp-client-server/udp_client_server.cpp.o
-
-.PHONY : include/udp-client-server/udp_client_server.o
-
-# target to build an object file
-include/udp-client-server/udp_client_server.cpp.o:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.o
-	$(MAKE) -f CMakeFiles/kukacpp.dir/build.make CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.o
-.PHONY : include/udp-client-server/udp_client_server.cpp.o
-
-include/udp-client-server/udp_client_server.i: include/udp-client-server/udp_client_server.cpp.i
-
-.PHONY : include/udp-client-server/udp_client_server.i
-
-# target to preprocess a source file
-include/udp-client-server/udp_client_server.cpp.i:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.i
-	$(MAKE) -f CMakeFiles/kukacpp.dir/build.make CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.i
-.PHONY : include/udp-client-server/udp_client_server.cpp.i
-
-include/udp-client-server/udp_client_server.s: include/udp-client-server/udp_client_server.cpp.s
-
-.PHONY : include/udp-client-server/udp_client_server.s
-
-# target to generate assembly for a file
-include/udp-client-server/udp_client_server.cpp.s:
-	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/include/udp-client-server/udp_client_server.cpp.s
-	$(MAKE) -f CMakeFiles/kukacpp.dir/build.make CMakeFiles/kukacpp.dir/include/udp-client-server/udp_client_server.cpp.s
-.PHONY : include/udp-client-server/udp_client_server.cpp.s
 
 main.o: main.cpp.o
 
@@ -280,16 +210,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... client"
+	@echo "... rebuild_cache"
 	@echo "... kukacpp"
-	@echo "... client.o"
-	@echo "... client.i"
-	@echo "... client.s"
-	@echo "... include/udp-client-server/udp_client_server.o"
-	@echo "... include/udp-client-server/udp_client_server.i"
-	@echo "... include/udp-client-server/udp_client_server.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

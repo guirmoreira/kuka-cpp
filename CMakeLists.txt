@@ -20,13 +20,8 @@ include_directories(${Boost_INCLUDE_DIRS})
 add_executable(${PROJECT_NAME} 
                ${MAIN_SOURCE_FILES} 
                ${RAPIDXML_INCLUDE_FILES} 
-               ${UDP_CLIENT_SERVER_INCLUDE_FILES} 
                ${XML_FILES} 
                ${MODELS_FILES})
 
 target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})
 target_include_directories(${PROJECT_NAME} PRIVATE ${RAPIDXML_PATH} ${UDP_CLIENT_SERVER_PATH} ${UTILS_PATH})
-
-set(CLIENT_SOURCE_FILES client.cpp ${UDP_CLIENT_SERVER_INCLUDE_FILES})
-add_executable(client ${CLIENT_SOURCE_FILES})
-target_include_directories(client PRIVATE ${UDP_CLIENT_SERVER_PATH})

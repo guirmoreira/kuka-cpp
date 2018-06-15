@@ -14,6 +14,7 @@ class Coordinates
   public:
     Coordinates();
     Coordinates(float x, float y, float z, float a, float b, float c);
+    //~Coordinates();
 
     float get_x();
     float get_y();
@@ -48,6 +49,7 @@ class Axes
   public:
     Axes();
     Axes(float a1, float a2, float a3, float a4, float a5, float a6);
+    //~Axes();
 
     float get_a1();
     float get_a2();
@@ -72,7 +74,6 @@ class DigitalOutputs
     bool o1;
     bool o2;
     bool o3;
-
   public:
     DigitalOutputs();
 
