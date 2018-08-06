@@ -1,36 +1,64 @@
-#include <iostream> // cout, endl,
+#include <iostream> 			// cout, endl,
 #include <cstdlib>
+#include <unistd.h>  			// sleep,
+#include <boost/thread.hpp>
+#include <stdio.h>      		// Default System Calls
+#include <stdlib.h>     		// Needed for OS X
+#include <string.h>     		// Needed for Strlen
+#include <sys/socket.h> 		// Needed for socket creating and binding
+#include <netinet/in.h> 		// Needed to use struct sockaddr_in
+#include <time.h>       		// To control the timeout mechanism
+#include <chrono>
+
 #include "robotKuka.hpp"
 #include "models.hpp"
 #include "xml_handler.hpp"
-#include <pthread.h> // thread,
-#include <unistd.h>  // sleep,
-#include <boost/thread.hpp>
-#include <stdio.h>      // Default System Calls
-#include <stdlib.h>     // Needed for OS X
-#include <string.h>     // Needed for Strlen
-#include <sys/socket.h> // Needed for socket creating and binding
-#include <netinet/in.h> // Needed to use struct sockaddr_in
-#include <time.h>       // To control the timeout mechanism
 
-// Threads awsome tutorial: https://www.tutorialspoint.com/cplusplus/cpp_multithreading.htm
 
+/*
+RobotKuka::RobotKuka(float CYCLE_TIME)
+ - This is the RobotKuka class constructor that receives cycle_time value. Cycle_time definition is important
+ in order to configure movementation functions, since each part of movement will be executed at this time in-
+ terval.
+ ~ Arguments: (float) CYCLE_TIME
+ ~ Returns: none
+*/
 RobotKuka::RobotKuka(float CYCLE_TIME)
 {
 	this->CYCLE_TIME = CYCLE_TIME;
 }
 
+/*
+RobotKuka::RobotKuka()
+ - This is the default RobotKuka class constructor that receives cycle_time = 0.012 as default value. 
+ ~ Arguments: none
+ ~ Returns: none
+*/
 RobotKuka::RobotKuka()
 {
 	this->CYCLE_TIME = 0.012;
 }
 
+/*
+void RobotKuka::set_communicator_running_flag(bool value)
+ - This function sets the boolean value to communicator_running_flag, flag responsible to states if communi-
+ cation is running or not.
+ ~ Arguments: (bool) value
+ ~ Returns: void
+*/
 void RobotKuka::set_communicator_running_flag(bool value)
 {
 	this->communicator_running_flag = &value;
 }
 
-bool *RobotKuka::get_communicator_running_flag()
+/*
+bool* RobotKuka::get_communicator_running_flag()
+ - This function returns the pointer to the boolean value of communicator_running_flag, flag responsible to 
+ states if communication is running or not.
+ ~ Arguments: none
+ ~ Returns: (bool*) communicator_runnung_flag
+*/
+bool* RobotKuka::get_communicator_running_flag()
 {
 	return this->communicator_running_flag;
 }
@@ -58,7 +86,7 @@ void connection(std::string ip, unsigned int port, bool* running_flag)
     struct sockaddr_in serveraddr;
     memset( &serveraddr, 0, sizeof(serveraddr) );
     serveraddr.sin_family = AF_INET;
-    serveraddr.sin_port = htons( 6008 );
+    serveraddr.sin_port = htons( port );
     serveraddr.sin_addr.s_addr = htonl( INADDR_ANY );
 
 	struct sockaddr_in clientaddr;
@@ -81,9 +109,11 @@ void connection(std::string ip, unsigned int port, bool* running_flag)
             break;
         }
 
+		//auto started = std::chrono::high_resolution_clock::now();
+
 		std::cout << "Msg len: " << length << std::endl;
 
-		xml_send[length] = '\0';
+		xml_send[length] = '\0';  // This is necessary to avoid xml_parse errors;
 
 		Data data;
 		data = xml_handler::get_data_from_xml_send(const_cast<char*>(xml_send), length);
@@ -104,9 +134,12 @@ void connection(std::string ip, unsigned int port, bool* running_flag)
 								 sendsize);
 
 		free(xml_send);  // pode ser um gargalo
+
+		//auto done = std::chrono::high_resolution_clock::now();
+		//std::cout << "Time: " << std::chrono::duration_cast<std::chrono::nanoseconds>(done-started).count();
 	}
 
-    close( fd );
+    close(fd);
 
 	pthread_exit(NULL);
 }

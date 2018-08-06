@@ -10,11 +10,12 @@ public:
 
 	void startCommunicator(char *const ip, unsigned int port);
 	void stopCommunicator();
-
-	void set_communicator_running_flag(bool value);
-	bool *get_communicator_running_flag();
+	void move()
 
 private:
+	void set_communicator_running_flag(bool value);
+	bool *get_communicator_running_flag();
+	
 	float CYCLE_TIME;
 	bool *communicator_running_flag;
 };

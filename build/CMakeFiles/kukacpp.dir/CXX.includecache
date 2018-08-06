@@ -24,16 +24,6 @@ ostream
 iterator
 -
 
-../include/udp-client-server/udp_client_server.h
-sys/types.h
--
-sys/socket.h
--
-netdb.h
--
-stdexcept
--
-
 ../utils/models.hpp
 
 ../utils/xml_handler.hpp
@@ -59,8 +49,6 @@ sstream
 /home/guilherme/drive/research/ic-glauco/kuka-cpp/main.cpp
 iostream
 -
-udp_client_server.h
-/home/guilherme/drive/research/ic-glauco/kuka-cpp/udp_client_server.h
 robotKuka.hpp
 /home/guilherme/drive/research/ic-glauco/kuka-cpp/robotKuka.hpp
 unistd.h
@@ -94,6 +82,8 @@ sys/socket.h
 netinet/in.h
 -
 time.h
+-
+chrono
 -
 
 /home/guilherme/drive/research/ic-glauco/kuka-cpp/robotKuka.hpp
