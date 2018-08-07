@@ -3,9 +3,9 @@
 #include <cstdlib>  // malloc
 #include <cstdio>   // sprintf
 
-// COORDINATES methods
+// Vector methods
 
-Coordinates::Coordinates()
+Vector::Vector()
 {
     this->x = 0;
     this->y = 0;
@@ -15,7 +15,7 @@ Coordinates::Coordinates()
     this->c = 0;
 }
 
-Coordinates::Coordinates(float x, float y, float z, float a, float b, float c)
+Vector::Vector(float x, float y, float z, float a, float b, float c)
 {
     this->x = x;
     this->y = y;
@@ -25,83 +25,83 @@ Coordinates::Coordinates(float x, float y, float z, float a, float b, float c)
     this->c = c;
 }
 
-float Coordinates::get_x()
+float Vector::get_x()
 {
     return this->x;
 }
 
-float Coordinates::get_y()
+float Vector::get_y()
 {
     return this->y;
 }
 
-float Coordinates::get_z()
+float Vector::get_z()
 {
     return this->z;
 }
 
-float Coordinates::get_a()
+float Vector::get_a()
 {
     return this->a;
 }
 
-float Coordinates::get_b()
+float Vector::get_b()
 {
     return this->b;
 }
 
-float Coordinates::get_c()
+float Vector::get_c()
 {
     return this->c;
 }
 
 // SET ----------------------------------------------------------
 
-void Coordinates::set_x(float x)
+void Vector::set_x(float x)
 {
     this->x = x;
 }
 
-void Coordinates::set_y(float y)
+void Vector::set_y(float y)
 {
     this->y = y;
 }
 
-void Coordinates::set_z(float z)
+void Vector::set_z(float z)
 {
     this->z = z;
 }
 
-void Coordinates::set_a(float a)
+void Vector::set_a(float a)
 {
     this->a = a;
 }
 
-void Coordinates::set_b(float b)
+void Vector::set_b(float b)
 {
     this->b = b;
 }
 
-void Coordinates::set_c(float c)
+void Vector::set_c(float c)
 {
     this->c = c;
 }
 
-float *Coordinates::get_translation()
+float *Vector::get_translation()
 {
     float translation[3] = {this->x, this->y, this->z};
     return translation;
 }
 
-float *Coordinates::get_rotation()
+float *Vector::get_rotation()
 {
     float rotation[3] = {this->a, this->b, this->c};
     return rotation;
 }
 
-void Coordinates::print()
+void Vector::print()
 {
-    std::cout << "Coordinates: x[" << this->x << "], y[" << this->y << "], z[" << this->z
+    std::cout << "Vector: x[" << this->x << "], y[" << this->y << "], z[" << this->z
               << "], a[" << this->a << "], b[" << this->b << "], c[" << this->c << "]" << std::endl;
 }
 
@@ -248,8 +248,8 @@ void DigitalOutputs::print()
 
 Data::Data()
 {
-    this->r_sol = Coordinates();
-    this->r_ist = Coordinates();
+    this->r_sol = Vector();
+    this->r_ist = Vector();
     this->ai_pos = Axes();
     this->as_pos = Axes();
     this->ei_pos = Axes();
@@ -258,13 +258,13 @@ Data::Data()
     this->me_cur = Axes();
     this->delay = 0;
     this->dig_out = DigitalOutputs();
-    this->ftc = Coordinates();
+    this->ftc = Vector();
     this->ipoc = (int) NULL;
 }
 
-Data::Data(Coordinates r_ist, Coordinates r_sol, Axes ai_pos, Axes as_pos,
+Data::Data(Vector r_ist, Vector r_sol, Axes ai_pos, Axes as_pos,
      Axes ei_pos, Axes es_pos, Axes ma_cur, Axes me_cur, unsigned short int delay,
-     DigitalOutputs dig_out, Coordinates ftc, unsigned int ipoc)
+     DigitalOutputs dig_out, Vector ftc, unsigned int ipoc)
 {
     this->r_ist = r_ist;
     this->r_sol = r_sol;
@@ -280,12 +280,12 @@ Data::Data(Coordinates r_ist, Coordinates r_sol, Axes ai_pos, Axes as_pos,
     this->ipoc = ipoc;
 }
 
-Coordinates Data::get_r_ist()
+Vector Data::get_r_ist()
 {
     return this->r_ist;
 }
 
-Coordinates Data::get_r_sol()
+Vector Data::get_r_sol()
 {
     return this->r_sol;
 }
@@ -330,7 +330,7 @@ DigitalOutputs Data::get_digital_outputs()
     return this->dig_out;
 }
 
-Coordinates Data::get_ftc()
+Vector Data::get_ftc()
 {
     return this->ftc;
 }
@@ -340,12 +340,12 @@ unsigned int Data::get_ipoc()
     return this->ipoc;
 }
 
-void Data::set_r_ist(Coordinates r_ist)
+void Data::set_r_ist(Vector r_ist)
 {
     this->r_ist = r_ist;
 }
 
-void Data::set_r_sol(Coordinates r_sol)
+void Data::set_r_sol(Vector r_sol)
 {
     this->r_sol = r_sol;
 }
@@ -390,7 +390,7 @@ void Data::set_digital_outputs(DigitalOutputs dig_out)
     this->dig_out = dig_out;
 }
 
-void Data::set_ftc(Coordinates ftc)
+void Data::set_ftc(Vector ftc)
 {
     this->ftc = ftc;
 }

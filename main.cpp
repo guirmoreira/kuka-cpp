@@ -8,7 +8,11 @@ int main() {
 
 	kr16.startCommunicator("192.168.10.15", 6008);
 
-	usleep(10 * 1000 * 1000); // sleep for 5 seconds
+	Vector vector(100, 0, 0, 0, 0, 0);
+
+	kr16.move(vector, 4.0);
+
+	usleep(10 * 1000 * 1000); // sleep for 10 seconds
 
     kr16.stopCommunicator();
     

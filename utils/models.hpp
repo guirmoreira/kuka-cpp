@@ -1,7 +1,7 @@
 #ifndef MODELS_HPP
 #define MODELS_HPP
 
-class Coordinates
+class Vector
 {
   private:
     float x;
@@ -12,9 +12,9 @@ class Coordinates
     float c;
 
   public:
-    Coordinates();
-    Coordinates(float x, float y, float z, float a, float b, float c);
-    //~Coordinates();
+    Vector();
+    Vector(float x, float y, float z, float a, float b, float c);
+    //~Vector();
 
     float get_x();
     float get_y();
@@ -91,8 +91,8 @@ class DigitalOutputs
 class Data
 {
   private:
-    Coordinates r_ist;
-    Coordinates r_sol;
+    Vector r_ist;
+    Vector r_sol;
     Axes ai_pos;
     Axes as_pos;
     Axes ei_pos;
@@ -101,17 +101,17 @@ class Data
     Axes me_cur;
     unsigned short int delay;
     DigitalOutputs dig_out;
-    Coordinates ftc;
+    Vector ftc;
     unsigned int ipoc;
 
   public:
     Data();
-    Data(Coordinates r_ist, Coordinates r_sol, Axes ai_pos, Axes as_pos,
+    Data(Vector r_ist, Vector r_sol, Axes ai_pos, Axes as_pos,
          Axes ei_pos, Axes es_pos, Axes ma_cur, Axes me_cur, unsigned short int delay,
-         DigitalOutputs dig_out, Coordinates ftc, unsigned int ipoc);
+         DigitalOutputs dig_out, Vector ftc, unsigned int ipoc);
 
-    Coordinates get_r_ist();
-    Coordinates get_r_sol();
+    Vector get_r_ist();
+    Vector get_r_sol();
     Axes get_ai_pos();
     Axes get_as_pos();
     Axes get_ei_pos();
@@ -120,11 +120,11 @@ class Data
     Axes get_me_cur();
     unsigned short int get_delay();
     DigitalOutputs get_digital_outputs();
-    Coordinates get_ftc();
+    Vector get_ftc();
     unsigned int get_ipoc();
 
-    void set_r_ist(Coordinates r_ist);
-    void set_r_sol(Coordinates r_sol);
+    void set_r_ist(Vector r_ist);
+    void set_r_sol(Vector r_sol);
     void set_ai_pos(Axes ai_pos);
     void set_as_pos(Axes as_pos);
     void set_ei_pos(Axes ei_pos);
@@ -133,7 +133,7 @@ class Data
     void set_me_cur(Axes me_cur);
     void set_delay(unsigned short int delay);
     void set_digital_outputs(DigitalOutputs dig_out);
-    void set_ftc(Coordinates ftc);
+    void set_ftc(Vector ftc);
     void set_ipoc(unsigned int ipoc);
 
     void print();
