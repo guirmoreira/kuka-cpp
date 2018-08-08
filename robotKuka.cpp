@@ -1,3 +1,9 @@
+/*
+	Author: Guilherme R. Moreira
+	Local: University of São Paulo
+	Creation: 2018, June
+*/
+
 #include <iostream> 			// cout, endl,
 #include <cstdlib>
 #include <unistd.h>  			// sleep,
@@ -64,19 +70,20 @@ bool* RobotKuka::get_communicator_running_flag()
 	return this->communicator_running_flag;
 }
 
-
+/*
+void connection(std::string ip, unsigned int port, bool* running_flag)
+ - This is the main function of communication, called in a new thread. It creates a UDP socket with startCommunicator
+ server ip and port. While running_flag is true it receives a XML Send string from robot, getting all data, and
+ generates a XML Receive string that sends to the robot all movement and digital outputs information.
+ ~ Arguments: (std::string) ip, (unsigned int) port, (bool*) running_flag
+ ~ Returns: void
+*/
 void connection(std::string ip, unsigned int port, bool* running_flag)
 {	
 	#define EXPR_SIZE   2048
 	#define BUFLEN      2048
 	#define TRUE        1
 	#define SERVERLEN   2048
-
-	std::cout << "IPv4: " << ip << std::endl;
-
-	std::cout << "Porta: " << port << std::endl;
-
-	std::cout << "Flag: " << *running_flag << std::endl;
 
 	int fd;
 
@@ -113,7 +120,7 @@ void connection(std::string ip, unsigned int port, bool* running_flag)
         /* Starts chrono to account CYCLE TIME */
 		//auto started = std::chrono::high_resolution_clock::now();
 
-		std::cout << "Msg len: " << length << std::endl;
+		//std::cout << "Msg len: " << length << std::endl;
 
 		xml_send[length] = '\0';  // This is necessary to avoid xml_parse errors;
 
@@ -161,11 +168,16 @@ void connection(std::string ip, unsigned int port, bool* running_flag)
 	/* Closes the previously openned communication socket. */
     close(fd);
 
-    /* Exists the previously created communication thread. */
+    /* Exits the previously created communication thread. */
 	pthread_exit(NULL);
 }
 
-
+/*
+void RobotKuka::startCommunicator(char *const ip, unsigned int port)
+ - This function only sets communicator_running_flag to true and starts a new thread with function connection as argument.
+ ~ Arguments: (char* const) ip, (unsigned int) port
+ ~ Returns: void
+*/
 void RobotKuka::startCommunicator(char *const ip, unsigned int port)
 {
 	std::cout << "Comunicação iniciada..." << std::endl;
@@ -177,6 +189,12 @@ void RobotKuka::startCommunicator(char *const ip, unsigned int port)
 	boost::thread communication_thread(connection, ip, port, communicator_running_flag);
 }
 
+/*
+void RobotKuka::stopCommunicator()
+ - This function sets communicator_running_flag to false, killing the connection while loop and exiting the communication.
+ ~ Arguments: none
+ ~ Returns: void
+*/
 void RobotKuka::stopCommunicator()
 {
 	bool flag = false;

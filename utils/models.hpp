@@ -1,3 +1,9 @@
+/*
+    Author: Guilherme R. Moreira
+    Local: University of São Paulo
+    Creation: 2018, June
+*/
+
 #ifndef MODELS_HPP
 #define MODELS_HPP
 
