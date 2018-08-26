@@ -6,3 +6,7 @@ Open the terminal and change to desired folder;
 >> git add *
 >> git commit -m "message"
 >> git push origin master
+
+
+## Requirements
+* Necessário instalar biblioteca Boost

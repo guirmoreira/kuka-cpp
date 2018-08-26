@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/guilherme/drive/research/ic-glauco/kuka-cpp/include/rapidxml-1.13 -I/home/guilherme/drive/research/ic-glauco/kuka-cpp/include/udp-client-server -I/home/guilherme/drive/research/ic-glauco/kuka-cpp/utils 
+CXX_INCLUDES = -I/home/guilherme/Drive/research/ic-glauco/kuka-cpp/include/rapidxml-1.13 -I/home/guilherme/Drive/research/ic-glauco/kuka-cpp/include/udp-client-server -I/home/guilherme/Drive/research/ic-glauco/kuka-cpp/utils 
 

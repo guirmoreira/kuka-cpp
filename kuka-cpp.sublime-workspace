@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"b",
+				"b"
+			],
+			[
 				"packa",
 				"packages_ammount"
 			],
@@ -32,41 +36,15 @@
 			"settings":
 			{
 				"buffer_size": 323,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "robotKuka.cpp",
-			"settings":
-			{
-				"buffer_size": 8570,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "impedance-control/impedanceControl.hpp",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 880,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "utils/models.hpp",
-			"settings":
-			{
-				"buffer_size": 2788,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "impedance-control/impedanceControl.cpp",
-			"settings":
-			{
-				"buffer_size": 34,
+				"buffer_size": 314,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -75,7 +53,17 @@
 			"file": "robotKuka.hpp",
 			"settings":
 			{
-				"buffer_size": 614,
+				"buffer_size": 606,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "robotKuka.cpp",
+			"settings":
+			{
+				"buffer_size": 8524,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -120,11 +108,12 @@
 	},
 	"expanded_folders":
 	[
-		"/home/moreira/guilhermeribmoreira@gmail.com/research/ic-glauco/kuka-cpp",
-		"/home/moreira/guilhermeribmoreira@gmail.com/research/ic-glauco/kuka-cpp/utils"
+		"/home/guilherme/Drive/research/ic-glauco/kuka-cpp"
 	],
 	"file_history":
 	[
+		"/home/guilherme/Drive/research/ic-glauco/kuka-cpp/utils/models.hpp",
+		"/home/moreira/guilhermeribmoreira@gmail.com/research/ic-glauco/kuka-cpp/impedance-control/impedanceControl.hpp",
 		"/home/moreira/guilhermeribmoreira@gmail.com/research/ic-glauco/kuka-cpp/impedance-control/impedanceControl.cpp",
 		"/home/moreira/guilhermeribmoreira@gmail.com/research/ic-glauco/kuka-cpp/kukacpp_ws.code-workspace",
 		"/home/moreira/guilhermeribmoreira@gmail.com/research/ic-glauco/kuka-cpp/utils/models.hpp",
@@ -145,7 +134,7 @@
 	],
 	"find":
 	{
-		"height": 56.0
+		"height": 33.0
 	},
 	"find_in_files":
 	{
@@ -156,9 +145,14 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"Vector",
+			"vector",
+			"Vector",
+			"force",
+			"self"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -176,7 +170,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -192,12 +186,15 @@
 						"selection":
 						[
 							[
-								323,
-								323
+								301,
+								301
 							]
 						],
 						"settings":
 						{
+							"SL.26.region_keys":
+							[
+							],
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/C++11/C++11.tmLanguage"
 						},
@@ -205,28 +202,96 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "robotKuka.cpp",
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8570,
+						"buffer_size": 314,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								181,
-								181
+								314,
+								314
 							]
 						],
 						"settings":
 						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "robotKuka.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 606,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"SL.27.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++11/C++11.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "robotKuka.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4061,
+								4061
+							]
+						],
+						"settings":
+						{
+							"SL.28.region_keys":
+							[
+							],
+							"SL.31.region_keys":
+							[
+							],
 							"SL.51.region_keys":
 							[
 							],
@@ -238,130 +303,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "impedance-control/impedanceControl.hpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 880,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								333,
-								333
-							]
-						],
-						"settings":
-						{
-							"SL.57.region_keys":
-							[
-							],
-							"git_gutter_is_enabled": true,
-							"open_with_edit": true,
-							"syntax": "Packages/C++11/C++11.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "utils/models.hpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2788,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								190,
-								190
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/C++11/C++11.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 315.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "impedance-control/impedanceControl.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 34,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								34,
-								34
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/C++11/C++11.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "robotKuka.hpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 614,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								447,
-								447
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/C++11/C++11.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]

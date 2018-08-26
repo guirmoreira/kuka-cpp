@@ -35,7 +35,7 @@ namespace xml_handler
         if (client_msg_len > 256)
         {
             rapidxml::xml_node<> *rist_node = root_node->first_node("RIst");
-            Coordinates r_ist;
+            Pose r_ist;
             r_ist.set_x(atof(rist_node->first_attribute("X")->value()));
             r_ist.set_y(atof(rist_node->first_attribute("Y")->value()));
             r_ist.set_z(atof(rist_node->first_attribute("Z")->value()));
@@ -44,7 +44,7 @@ namespace xml_handler
             r_ist.set_c(atof(rist_node->first_attribute("C")->value()));
             data.set_r_ist(r_ist);
             rapidxml::xml_node<> *rsol_node = root_node->first_node("RSol");
-            Coordinates r_sol;
+            Pose r_sol;
             r_sol.set_x(atof(rsol_node->first_attribute("X")->value()));
             r_sol.set_y(atof(rsol_node->first_attribute("Y")->value()));
             r_sol.set_z(atof(rsol_node->first_attribute("Z")->value()));
@@ -115,7 +115,7 @@ namespace xml_handler
             dig_out.set_o3(atoi(digout_node->first_attribute("o3")->value()));
             data.set_digital_outputs(dig_out);
             rapidxml::xml_node<> *ftc_node = root_node->first_node("FTC");
-            Coordinates ftc;
+            Pose ftc;
             ftc.set_x(atof(ftc_node->first_attribute("Fx")->value()));
             ftc.set_y(atof(ftc_node->first_attribute("Fy")->value()));
             ftc.set_z(atof(ftc_node->first_attribute("Fz")->value()));
@@ -135,7 +135,7 @@ namespace xml_handler
         return data;
     }
 
-    std::string generate_xml_receive(Coordinates move = Coordinates(), Axes rotate = Axes(),
+    std::string generate_xml_receive(Pose move = Pose(), Axes rotate = Axes(),
                                     DigitalOutputs dig_out = DigitalOutputs(), unsigned int ipoc = 145)
     {
         // Write xml file =================================
@@ -217,33 +217,3 @@ namespace xml_handler
     }
 
 } // namespace xml_handler
-
-// WORKING CODE TO GET XML
-/*
-    std::cout << "Parsing my XML send..." << std::endl;
-
-    rapidxml::xml_document<> doc;
-    rapidxml::xml_node<> *root_node;
-
-    std::ifstream file("xml_send_example.xml");
-
-    std::vector<char> buffer((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
-
-    buffer.push_back('\0');
-
-    doc.parse<0>(&buffer[0]);
-
-    root_node = doc.first_node("Rob");
-
-    std::cout << "Rob value: " << root_node->first_attribute("Type")->value() << std::endl;
-
-    rapidxml::xml_node<> *ipoc_node = root_node->first_node("IPOC");
-    
-    std::cout << "IPOC value: " << ipoc_node->value() << std::endl;
-
-    Data data;
-
-    data.set_ipoc(atoi(ipoc_node->value()));
-
-    std::cout << "IPOC: " << data.get_ipoc() << std::endl;
-    */

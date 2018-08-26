@@ -3,9 +3,9 @@
 #include <cstdlib>  // malloc
 #include <cstdio>   // sprintf
 
-// Vector methods
+// Pose methods
 
-Vector::Vector()
+Pose::Pose()
 {
     this->x = 0;
     this->y = 0;
@@ -15,7 +15,7 @@ Vector::Vector()
     this->c = 0;
 }
 
-Vector::Vector(float x, float y, float z, float a, float b, float c)
+Pose::Pose(float x, float y, float z, float a, float b, float c)
 {
     this->x = x;
     this->y = y;
@@ -25,83 +25,83 @@ Vector::Vector(float x, float y, float z, float a, float b, float c)
     this->c = c;
 }
 
-float Vector::get_x()
+float Pose::get_x()
 {
     return this->x;
 }
 
-float Vector::get_y()
+float Pose::get_y()
 {
     return this->y;
 }
 
-float Vector::get_z()
+float Pose::get_z()
 {
     return this->z;
 }
 
-float Vector::get_a()
+float Pose::get_a()
 {
     return this->a;
 }
 
-float Vector::get_b()
+float Pose::get_b()
 {
     return this->b;
 }
 
-float Vector::get_c()
+float Pose::get_c()
 {
     return this->c;
 }
 
 // SET ----------------------------------------------------------
 
-void Vector::set_x(float x)
+void Pose::set_x(float x)
 {
     this->x = x;
 }
 
-void Vector::set_y(float y)
+void Pose::set_y(float y)
 {
     this->y = y;
 }
 
-void Vector::set_z(float z)
+void Pose::set_z(float z)
 {
     this->z = z;
 }
 
-void Vector::set_a(float a)
+void Pose::set_a(float a)
 {
     this->a = a;
 }
 
-void Vector::set_b(float b)
+void Pose::set_b(float b)
 {
     this->b = b;
 }
 
-void Vector::set_c(float c)
+void Pose::set_c(float c)
 {
     this->c = c;
 }
 
-float *Vector::get_translation()
+float *Pose::get_translation()
 {
     float translation[3] = {this->x, this->y, this->z};
     return translation;
 }
 
-float *Vector::get_rotation()
+float *Pose::get_rotation()
 {
     float rotation[3] = {this->a, this->b, this->c};
     return rotation;
 }
 
-void Vector::print()
+void Pose::print()
 {
-    std::cout << "Vector: x[" << this->x << "], y[" << this->y << "], z[" << this->z
+    std::cout << "Pose: x[" << this->x << "], y[" << this->y << "], z[" << this->z
               << "], a[" << this->a << "], b[" << this->b << "], c[" << this->c << "]" << std::endl;
 }
 
@@ -248,8 +248,8 @@ void DigitalOutputs::print()
 
 Data::Data()
 {
-    this->r_sol = Vector();
-    this->r_ist = Vector();
+    this->r_sol = Pose();
+    this->r_ist = Pose();
     this->ai_pos = Axes();
     this->as_pos = Axes();
     this->ei_pos = Axes();
@@ -258,13 +258,13 @@ Data::Data()
     this->me_cur = Axes();
     this->delay = 0;
     this->dig_out = DigitalOutputs();
-    this->ftc = Vector();
+    this->ftc = Pose();
     this->ipoc = (int) NULL;
 }
 
-Data::Data(Vector r_ist, Vector r_sol, Axes ai_pos, Axes as_pos,
+Data::Data(Pose r_ist, Pose r_sol, Axes ai_pos, Axes as_pos,
      Axes ei_pos, Axes es_pos, Axes ma_cur, Axes me_cur, unsigned short int delay,
-     DigitalOutputs dig_out, Vector ftc, unsigned int ipoc)
+     DigitalOutputs dig_out, Pose ftc, unsigned int ipoc)
 {
     this->r_ist = r_ist;
     this->r_sol = r_sol;
@@ -280,12 +280,12 @@ Data::Data(Vector r_ist, Vector r_sol, Axes ai_pos, Axes as_pos,
     this->ipoc = ipoc;
 }
 
-Vector Data::get_r_ist()
+Pose Data::get_r_ist()
 {
     return this->r_ist;
 }
 
-Vector Data::get_r_sol()
+Pose Data::get_r_sol()
 {
     return this->r_sol;
 }
@@ -330,7 +330,7 @@ DigitalOutputs Data::get_digital_outputs()
     return this->dig_out;
 }
 
-Vector Data::get_ftc()
+Pose Data::get_ftc()
 {
     return this->ftc;
 }
@@ -340,12 +340,12 @@ unsigned int Data::get_ipoc()
     return this->ipoc;
 }
 
-void Data::set_r_ist(Vector r_ist)
+void Data::set_r_ist(Pose r_ist)
 {
     this->r_ist = r_ist;
 }
 
-void Data::set_r_sol(Vector r_sol)
+void Data::set_r_sol(Pose r_sol)
 {
     this->r_sol = r_sol;
 }
@@ -390,7 +390,7 @@ void Data::set_digital_outputs(DigitalOutputs dig_out)
     this->dig_out = dig_out;
 }
 
-void Data::set_ftc(Vector ftc)
+void Data::set_ftc(Pose ftc)
 {
     this->ftc = ftc;
 }

@@ -78,7 +78,7 @@ void connection(std::string ip, unsigned int port, bool* running_flag)
  ~ Arguments: (std::string) ip, (unsigned int) port, (bool*) running_flag
  ~ Returns: void
 */
-void connection(std::string ip, unsigned int port, bool* running_flag)
+void connection(std::string ip, unsigned int port, bool* running_flag, RobotKuka* robotKuka)
 {	
 	#define EXPR_SIZE   2048
 	#define BUFLEN      2048
@@ -135,22 +135,22 @@ void connection(std::string ip, unsigned int port, bool* running_flag)
 
 		std::string xml_receive;  // creates string for XML Receive
 
-		/* Creates void instances of vector, axis and digital outputs to send thru XML Receive. */
-		Vector vector = Vector();
+		/* Creates void instances of pose, axis and digital outputs to send thru XML Receive. */
+		Pose pose = Pose();
 		Axes axis = Axes();
 		DigitalOutputs digout = DigitalOutputs();
 
 		/* Push one element from the queue if the movement queue is not empty. If the queue is empty,
 		the void instances are placed. */
-		if (!this->queue_move.empty())
+		if (!robotKuka->move_queue.empty())
 		{
-			vector = this->queue_move.front();
-			myqueue.pop();
+			pose = robotKuka->move_queue.front();
+			robotKuka->move_queue.pop();
 		}
 
-		/* Generates the XML Receive string using the vector, axis, and digital outputs instances and
+		/* Generates the XML Receive string using the pose, axis, and digital outputs instances and
 		the previous XML Send IPOC value. */
-    	xml_receive = xml_handler::generate_xml_receive(vector, axis, digout, data.get_ipoc());
+    	xml_receive = xml_handler::generate_xml_receive(pose, axis, digout, data.get_ipoc());
 
     	/* Sends the XML Receive string thru the socket created previously. */
 		int send_status = sendto(fd, xml_receive.c_str(), xml_receive.length()*sizeof(char), 0, (struct sockaddr *) &clientaddr, 
@@ -170,6 +170,7 @@ void connection(std::string ip, unsigned int port, bool* running_flag)
 
     /* Exits the previously created communication thread. */
 	pthread_exit(NULL);
+	exit(0);
 }
 
 /*
@@ -186,7 +187,7 @@ void RobotKuka::startCommunicator(char *const ip, unsigned int port)
 
 	RobotKuka::set_communicator_running_flag(flag);
 
-	boost::thread communication_thread(connection, ip, port, communicator_running_flag);
+	boost::thread communication_thread(connection, ip, port, communicator_running_flag, this);
 }
 
 /*
@@ -202,62 +203,66 @@ void RobotKuka::stopCommunicator()
 }
 
 
-void split_vector(Vector vector, double time)
+void split_pose(Pose pose, double time, RobotKuka* robotKuka)
 {
-	int packages_ammount = (int) time/this->CYCLE_TIME;
+	int packages_ammount = (int) time/robotKuka->CYCLE_TIME;
 
-	Vector package_move(vector.get_x()/packages_ammount, 
-						vector.get_y()/packages_ammount, 
-						vector.get_z()/packages_ammount, 
-						vector.get_a()/packages_ammount, 
-						vector.get_b()/packages_ammount, 
-						vector.get_c()/packages_ammount);
+	Pose package_move(	pose.get_x()/packages_ammount, 
+						pose.get_y()/packages_ammount, 
+						pose.get_z()/packages_ammount, 
+						pose.get_a()/packages_ammount, 
+						pose.get_b()/packages_ammount, 
+						pose.get_c()/packages_ammount);
 
-	Vector package_speed(package_move.get_x()/CYCLE_TIME, 
-						 package_move.get_y()/CYCLE_TIME, 
-						 package_move.get_z()/CYCLE_TIME, 
-						 package_move.get_a()/CYCLE_TIME, 
-						 package_move.get_b()/CYCLE_TIME, 
-						 package_move.get_c()/CYCLE_TIME);
+	Pose package_speed(	package_move.get_x()/robotKuka->CYCLE_TIME, 
+						package_move.get_y()/robotKuka->CYCLE_TIME, 
+						package_move.get_z()/robotKuka->CYCLE_TIME, 
+						package_move.get_a()/robotKuka->CYCLE_TIME, 
+						package_move.get_b()/robotKuka->CYCLE_TIME, 
+						package_move.get_c()/robotKuka->CYCLE_TIME);
 
-	if(package_speed.get_x() > this->security_limit_speed.get_x() || 
-	   package_speed.get_y() > this->security_limit_speed.get_y() || 
-	   package_speed.get_z() > this->security_limit_speed.get_z() || 
-	   package_speed.get_a() > this->security_limit_speed.get_a() || 
-	   package_speed.get_b() > this->security_limit_speed.get_b() || 
-	   package_speed.get_c() > this->security_limit_speed.get_c())
+	package_speed.print();
+
+	robotKuka->security_limit_speed.print();
+
+	if(package_speed.get_x() > robotKuka->security_limit_speed.get_x() || 
+	   package_speed.get_y() > robotKuka->security_limit_speed.get_y() || 
+	   package_speed.get_z() > robotKuka->security_limit_speed.get_z() || 
+	   package_speed.get_a() > robotKuka->security_limit_speed.get_a() || 
+	   package_speed.get_b() > robotKuka->security_limit_speed.get_b() || 
+	   package_speed.get_c() > robotKuka->security_limit_speed.get_c())
 	{
 		std::cout << "ERROR | Security: security_limit_speed exceeded while planning path. Check the log." << std::endl;
-		RobotKuka::stopCommunicator();
-	} else if(package_speed.get_x() > this->security_limit_speed.get_x()/2 || 
-	   		  package_speed.get_y() > this->security_limit_speed.get_y()/2 || 
-	   		  package_speed.get_z() > this->security_limit_speed.get_z()/2 || 
-	   		  package_speed.get_a() > this->security_limit_speed.get_a()/2 || 
-	   		  package_speed.get_b() > this->security_limit_speed.get_b()/2 || 
-	   		  package_speed.get_c() > this->security_limit_speed.get_c()/2)
+		robotKuka->stopCommunicator();
+	} else if(package_speed.get_x() > robotKuka->security_limit_speed.get_x()/2 || 
+	   		  package_speed.get_y() > robotKuka->security_limit_speed.get_y()/2 || 
+	   		  package_speed.get_z() > robotKuka->security_limit_speed.get_z()/2 || 
+	   		  package_speed.get_a() > robotKuka->security_limit_speed.get_a()/2 || 
+	   		  package_speed.get_b() > robotKuka->security_limit_speed.get_b()/2 || 
+	   		  package_speed.get_c() > robotKuka->security_limit_speed.get_c()/2)
 	{
 		std::cout << "WARNING | Security: half of security_limit_speed exceeded while planning path. Check the log." << std::endl;
 	}
 
-	for(i = 0; i < packages_ammount; i++)
+	for(int i = 0; i < packages_ammount; i++)
 	{
 		try
 		{
-			this->queue_move.push(package_move);
+			robotKuka->move_queue.push(package_move);
 		}
-		catch(exception& e)
+		catch(int e)
 		{
-			std::cout << "ERROR | Exception: problem while pushing element to queue_move (" << e.what() << ") . Check the log." << std::endl;
+			std::cout << "ERROR | Exception: problem while pushing element to move_queue (" << e << ") . Check the log." << std::endl;
 		}
 	}
 
-	std::cout << "LOG | " << packages_ammount << " elements pushed to queue_move." << std::endl;
+	std::cout << "LOG | " << packages_ammount << " elements pushed to move_queue." << std::endl;
 
 	pthread_exit(NULL);
 }
 
 
-void RobotKuka::move(Vector vector, double time)
+void RobotKuka::move(Pose pose, double time)
 {
-	boost::thread split_vector_thread(split_vector, vector, time);
+	boost::thread split_pose_thread(split_pose, pose, time, this);
 }
